@@ -2254,5 +2254,21 @@
     "city": "Munich",
     "number-of-employees": "10000",
     "country": "Germany"
+  },
+  {
+    "name": "Candis GmbH",
+    "year-of-make": "2015",
+    "industry": "Software",
+    "city": "Berlin",
+    "number-of-employees": "100",
+    "country": "Germany"
+  },
+  {
+    "name": "OneFootball GmbH",
+    "year-of-make": "2008",
+    "industry": "Software",
+    "city": "Berlin",
+    "number-of-employees": "500",
+    "country": "Germany"
   }
 ]
