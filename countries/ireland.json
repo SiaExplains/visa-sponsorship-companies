@@ -1,10 +1,11 @@
 [
   {
-    "name": "Ryan Air ",
+    "name": "Ryan Air",
     "year-of-make": "1984",
     "industry": "Aviation",
     "city": "Dublin",
     "number-of-employees": "19000",
-    "country": "Ireland"
+    "country": "Ireland",
+    "linkedin": "https://www.linkedin.com/company/ryan-air-inc/"
   }
 ]

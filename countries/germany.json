@@ -5,7 +5,8 @@
     "industry": "Conglomerate",
     "city": "Munich",
     "number-of-employees": "300000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/future-energy-group-srl/"
   },
   {
     "name": "BASF SE",
@@ -13,7 +14,8 @@
     "industry": "Chemicals",
     "city": "Ludwigshafen",
     "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/basf/"
   },
   {
     "name": "Volkswagen AG",
@@ -21,7 +23,8 @@
     "industry": "Automotive",
     "city": "Wolfsburg",
     "number-of-employees": "600000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/volkswagen-group/"
   },
   {
     "name": "Deutsche Bank AG",
@@ -29,7 +32,8 @@
     "industry": "Banking",
     "city": "Frankfurt",
     "number-of-employees": "80000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/dkb/"
   },
   {
     "name": "SAP SE",
@@ -37,7 +41,9 @@
     "industry": "Software",
     "city": "Walldorf",
     "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sap-deutschland-se-&-co.-kg/"
+
   },
   {
     "name": "Allianz SE",
@@ -45,7 +51,8 @@
     "industry": "Insurance",
     "city": "Munich",
     "number-of-employees": "150000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/allianz/"
   },
   {
     "name": "BMW AG",
@@ -53,7 +60,8 @@
     "industry": "Automotive",
     "city": "Munich",
     "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bmw-group/"
   },
   {
     "name": "Daimler AG",
@@ -61,7 +69,8 @@
     "industry": "Automotive",
     "city": "Stuttgart",
     "number-of-employees": "300000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/daimlertruckag/"
   },
   {
     "name": "Fresenius SE & Co. KGaA",
@@ -69,7 +78,8 @@
     "industry": "Healthcare",
     "city": "Bad Homburg",
     "number-of-employees": "300000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/fresenius-se/"
   },
   {
     "name": "Bayer AG",
@@ -77,7 +87,8 @@
     "industry": "Pharmaceuticals",
     "city": "Leverkusen",
     "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bayer-schweiz-ag/"
   },
   {
     "name": "Deutsche Telekom AG",
@@ -85,7 +96,8 @@
     "industry": "Telecommunications",
     "city": "Bonn",
     "number-of-employees": "200000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/telekom/"
   },
   {
     "name": "Thyssenkrupp AG",
@@ -93,7 +105,8 @@
     "industry": "Industrial",
     "city": "Essen",
     "number-of-employees": "150000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/thyssenkrupp/"
   },
   {
     "name": "Henkel AG & Co. KGaA",
@@ -101,7 +114,8 @@
     "industry": "Consumer Goods",
     "city": "Düsseldorf",
     "number-of-employees": "50000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/henkel-ag-&-co.-kgaa/"
   },
   {
     "name": "Continental AG",
@@ -109,7 +123,8 @@
     "industry": "Automotive",
     "city": "Hanover",
     "number-of-employees": "200000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/continental/"
   },
   {
     "name": "Deutsche Lufthansa AG",
@@ -117,7 +132,8 @@
     "industry": "Aviation",
     "city": "Cologne",
     "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/lufthansa-group/"
   },
   {
     "name": "Merck KGaA",
@@ -125,7 +141,8 @@
     "industry": "Pharmaceuticals",
     "city": "Darmstadt",
     "number-of-employees": "60000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/emd-affiliates-of-merck-kgaa-darmstadt-germany/"
   },
   {
     "name": "Deutsche Post DHL Group",
@@ -133,7 +150,8 @@
     "industry": "Logistics",
     "city": "Bonn",
     "number-of-employees": "550000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/showcase/dpdhl-investor-relations/"
   },
   {
     "name": "Robert Bosch GmbH",
@@ -141,7 +159,8 @@
     "industry": "Engineering",
     "city": "Gerlingen",
     "number-of-employees": "400000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bosch/"
   },
   {
     "name": "Evonik Industries AG",
@@ -149,7 +168,8 @@
     "industry": "Chemicals",
     "city": "Essen",
     "number-of-employees": "32000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/evonik/"
   },
   {
     "name": "Infineon Technologies AG",
@@ -157,7 +177,8 @@
     "industry": "Semiconductor",
     "city": "Neubiberg",
     "number-of-employees": "46000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/infineon-technologies/"
   },
   {
     "name": "Beiersdorf AG",
@@ -165,7 +186,8 @@
     "industry": "Consumer Goods",
     "city": "Hamburg",
     "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/beiersdorf/"
   },
   {
     "name": "Lanxess AG",
@@ -173,7 +195,8 @@
     "industry": "Chemicals",
     "city": "Cologne",
     "number-of-employees": "14000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/lanxess/"
   },
   {
     "name": "HeidelbergCement AG",
@@ -181,7 +204,8 @@
     "industry": "Construction",
     "city": "Heidelberg",
     "number-of-employees": "50000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/heidelbergcementfrance/"
   },
   {
     "name": "Osram Licht AG",
@@ -189,7 +213,8 @@
     "industry": "Lighting",
     "city": "Munich",
     "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/osram-licht-ag/about/"
   },
   {
     "name": "Wacker Neuson Linz GmbH",
@@ -197,7 +222,8 @@
     "industry": "Construction Equipment",
     "city": "Munich",
     "number-of-employees": "5000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/wacker-neuson-linz-gmbh/"
   },
   {
     "name": "Kärcher GmbH & Co. KG",
@@ -205,7 +231,8 @@
     "industry": "Cleaning Equipment",
     "city": "Winnenden",
     "number-of-employees": "13000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/alfred-k%C3%A4rcher-gmbh-&-co.-kg/"
   },
   {
     "name": "Metro AG",
@@ -213,7 +240,8 @@
     "industry": "Wholesale",
     "city": "Düsseldorf",
     "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/metro-ag/"
   },
   {
     "name": "Bilfinger SE",
@@ -221,7 +249,8 @@
     "industry": "Engineering",
     "city": "Mannheim",
     "number-of-employees": "30000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bilfinger/"
   },
   {
     "name": "RWE AG",
@@ -229,7 +258,8 @@
     "industry": "Energy",
     "city": "Essen",
     "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/rwe-/"
   },
   {
     "name": "MTU Aero Engines AG",
@@ -237,7 +267,8 @@
     "industry": "Aerospace",
     "city": "Munich",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mtu-aero-engines/"
   },
   {
     "name": "Fresenius Medical Care AG & Co. KGaA",
@@ -245,7 +276,8 @@
     "industry": "Healthcare",
     "city": "Bad Homburg",
     "number-of-employees": "120000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/freseniusmedicalcare/"
   },
   {
     "name": "Deutsche Bahn AG",
@@ -253,7 +285,8 @@
     "industry": "Transportation",
     "city": "Berlin",
     "number-of-employees": "300000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/deutschebahn/"
   },
   {
     "name": "E.ON SE",
@@ -261,7 +294,8 @@
     "industry": "Energy",
     "city": "Essen",
     "number-of-employees": "70000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/e-on/"
   },
   {
     "name": "FUCHS PETROLUB SE",
@@ -269,7 +303,8 @@
     "industry": "Chemicals",
     "city": "Mannheim",
     "number-of-employees": "5000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/fuchs-petrolub-se/about/"
   },
   {
     "name": "Evonik Resource Efficiency GmbH",
@@ -277,7 +312,8 @@
     "industry": "Specialty Chemicals",
     "city": "Essen",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/evonik-resource-efficiency-gmbh/"
   },
   {
     "name": "Deutsche Wohnen SE",
@@ -285,7 +321,8 @@
     "industry": "Real Estate",
     "city": "Berlin",
     "number-of-employees": "14000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/deutsche-wohnen-gruppe/"
   },
   {
     "name": "Symrise AG",
@@ -293,7 +330,8 @@
     "industry": "Flavors and Fragrances",
     "city": "Holzminden",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/symrise/"
   },
   {
     "name": "Brenntag AG",
@@ -301,7 +339,8 @@
     "industry": "Chemicals Distribution",
     "city": "Essen",
     "number-of-employees": "17000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/brenntag/"
   },
   {
     "name": "ProSiebenSat.1 Media SE",
@@ -309,7 +348,8 @@
     "industry": "Media",
     "city": "Unterföhring",
     "number-of-employees": "7000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/prosiebensat1-media-se/"
   },
   {
     "name": "PUMA SE",
@@ -317,7 +357,8 @@
     "industry": "Apparel",
     "city": "Herzogenaurach",
     "number-of-employees": "13000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/puma/"
   },
   {
     "name": "Celesio AG",
@@ -325,7 +366,8 @@
     "industry": "Healthcare",
     "city": "Stuttgart",
     "number-of-employees": "40000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/celesio-ag/"
   },
   {
     "name": "KION Group AG",
@@ -333,7 +375,8 @@
     "industry": "Material Handling",
     "city": "Frankfurt",
     "number-of-employees": "35000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kiongroup/"
   },
   {
     "name": "Wacker Chemie AG",
@@ -341,7 +384,8 @@
     "industry": "Chemicals",
     "city": "Munich",
     "number-of-employees": "14000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/wacker/"
   },
   {
     "name": "Osram Continental GmbH",
@@ -349,7 +393,8 @@
     "industry": "Automotive Lighting",
     "city": "Munich",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/osram-continental/"
   },
   {
     "name": "TÜV SÜD AG",
@@ -357,7 +402,8 @@
     "industry": "Testing and Certification",
     "city": "Munich",
     "number-of-employees": "25000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/tuvsud/"
   },
   {
     "name": "Knorr-Bremse AG",
@@ -365,7 +411,8 @@
     "industry": "Automotive",
     "city": "Munich",
     "number-of-employees": "29000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/knorr-bremse/"
   },
   {
     "name": "Stada Arzneimittel AG",
@@ -373,7 +420,8 @@
     "industry": "Pharmaceuticals",
     "city": "Bad Vilbel",
     "number-of-employees": "12000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/stada-arzneimittel-gmbh/"
   },
   {
     "name": "Ceconomy AG",
@@ -381,7 +429,8 @@
     "industry": "Consumer Electronics",
     "city": "Düsseldorf",
     "number-of-employees": "50000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/ceconomy/"
   },
   {
     "name": "Deutsche Pfandbriefbank AG",
@@ -389,7 +438,8 @@
     "industry": "Banking",
     "city": "Munich",
     "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/deutsche-pfandbriefbank-ag/"
   },
   {
     "name": "Merck Life Science GmbH",
@@ -397,7 +447,8 @@
     "industry": "Life Sciences",
     "city": "Darmstadt",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/merck-life-science/"
   },
   {
     "name": "ABB AG",
@@ -405,7 +456,8 @@
     "industry": "Industrial Automation",
     "city": "Mannheim",
     "number-of-employees": "110000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/abb/"
   },
   {
     "name": "ALTANA AG",
@@ -413,7 +465,8 @@
     "industry": "Specialty Chemicals",
     "city": "Wesel",
     "number-of-employees": "6000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/altana-ag/"
   },
   {
     "name": "Wacker Silicones GmbH",
@@ -421,7 +474,8 @@
     "industry": "Silicones",
     "city": "Munich",
     "number-of-employees": "14000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/wacker/"
   },
   {
     "name": "METROPOLE INVESTMENTS LTD.",
@@ -437,7 +491,8 @@
     "industry": "Machinery and Equipment",
     "city": "Stuttgart",
     "number-of-employees": "17000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/duerr/"
   },
   {
     "name": "Klüber Lubrication München SE & Co. KG",
@@ -445,7 +500,8 @@
     "industry": "Lubricants",
     "city": "Munich",
     "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kluber-lubrication_102925/"
   },
   {
     "name": "EnBW Energie Baden-Württemberg AG",
@@ -453,7 +509,8 @@
     "industry": "Energy",
     "city": "Karlsruhe",
     "number-of-employees": "24000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/enbw/"
   },
   {
     "name": "Deutsche Apotheker- und Ärztebank eG",
@@ -461,7 +518,8 @@
     "industry": "Banking",
     "city": "Düsseldorf",
     "number-of-employees": "3000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/apobank/"
   },
   {
     "name": "KWS SAAT SE & Co. KGaA",
@@ -469,15 +527,8 @@
     "industry": "Agriculture",
     "city": "Einbeck",
     "number-of-employees": "5000",
-    "country": "Germany"
-  },
-  {
-    "name": "Lufthansa Group",
-    "year-of-make": "1953",
-    "industry": "Aviation",
-    "city": "Cologne",
-    "number-of-employees": "138000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kwsgroup/"
   },
   {
     "name": "Axel Springer SE",
@@ -485,7 +536,8 @@
     "industry": "Media",
     "city": "Berlin",
     "number-of-employees": "16000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/axelspringer/"
   },
   {
     "name": "Munich Re Group",
@@ -501,7 +553,8 @@
     "industry": "Defense Automotive",
     "city": "Düsseldorf",
     "number-of-employees": "25000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/rheinmetall/"
   },
   {
     "name": "Fielmann AG",
@@ -509,7 +562,8 @@
     "industry": "Optics and Eyewear",
     "city": "Hamburg",
     "number-of-employees": "21000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/fielmann-ag/"
   },
   {
     "name": "Schaeffler AG",
@@ -517,7 +571,8 @@
     "industry": "Automotive and Industrial",
     "city": "Herzogenaurach",
     "number-of-employees": "83000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/schaeffler/"
   },
   {
     "name": "TRUMPF GmbH + Co. KG",
@@ -525,7 +580,8 @@
     "industry": "Machine Tools",
     "city": "Ditzingen",
     "number-of-employees": "14000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/trumpf-se-co-kg/"
   },
   {
     "name": "Commerzbank AG",
@@ -533,7 +589,8 @@
     "industry": "Banking and Financial Services",
     "city": "Frankfurt",
     "number-of-employees": "39000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/commerzbank-ag/"
   },
   {
     "name": "TÜV Rheinland AG",
@@ -541,7 +598,8 @@
     "industry": "Testing Inspection and Certification",
     "city": "Cologne",
     "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/tuv-rheinland-group/"
   },
   {
     "name": "Linde plc",
@@ -549,15 +607,8 @@
     "industry": "Industrial Gases",
     "city": "Munich",
     "number-of-employees": "80000",
-    "country": "Germany"
-  },
-  {
-    "name": "Beiersdorf Manufacturing Hamburg GmbH",
-    "year-of-make": "1882",
-    "industry": "Consumer Goods",
-    "city": "Hamburg",
-    "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/linde/"
   },
   {
     "name": "Vodafone GmbH",
@@ -565,7 +616,8 @@
     "industry": "Telecommunications",
     "city": "Düsseldorf",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/vodafone/"
   },
   {
     "name": "EON SE",
@@ -573,7 +625,8 @@
     "industry": "Utilities",
     "city": "Essen",
     "number-of-employees": "75000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/eon-inc/"
   },
   {
     "name": "Wintershall Dea GmbH",
@@ -581,7 +634,8 @@
     "industry": "Oil and Gas",
     "city": "Kassel",
     "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/wintershalldea/"
   },
   {
     "name": "Uniper SE",
@@ -589,7 +643,8 @@
     "industry": "Utilities",
     "city": "Düsseldorf",
     "number-of-employees": "11000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/uniper-se/"
   },
   {
     "name": "Nordex SE",
@@ -597,7 +652,8 @@
     "industry": "Renewable Energy",
     "city": "Hamburg",
     "number-of-employees": "8000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/nordex/"
   },
   {
     "name": "adidas AG",
@@ -605,15 +661,8 @@
     "industry": "Apparel and Footwear",
     "city": "Herzogenaurach",
     "number-of-employees": "60000",
-    "country": "Germany"
-  },
-  {
-    "name": "Continental Automotive GmbH",
-    "year-of-make": "1871",
-    "industry": "Automotive Technology",
-    "city": "Regensburg",
-    "number-of-employees": "240000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/adidas/"
   },
   {
     "name": "MANN+HUMMEL GmbH",
@@ -621,7 +670,8 @@
     "industry": "Automotive and Industrial Filters",
     "city": "Ludwigsburg",
     "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mannhummel/"
   },
   {
     "name": "Fresenius Kabi Deutschland GmbH",
@@ -629,7 +679,8 @@
     "industry": "Healthcare",
     "city": "Bad Homburg",
     "number-of-employees": "40000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/freseniuskabi/"
   },
   {
     "name": "Carl Zeiss AG",
@@ -637,7 +688,8 @@
     "industry": "Optics and Optoelectronics",
     "city": "Oberkochen",
     "number-of-employees": "30000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/carl-zeiss-do-brasil/"
   },
   {
     "name": "Miele & Cie. KG",
@@ -645,7 +697,8 @@
     "industry": "Home Appliances",
     "city": "Gütersloh",
     "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/in/miele-cie-251b16182/"
   },
   {
     "name": "Fraport AG",
@@ -653,15 +706,8 @@
     "industry": "Airport Services",
     "city": "Frankfurt",
     "number-of-employees": "22000",
-    "country": "Germany"
-  },
-  {
-    "name": "Brenntag GmbH",
-    "year-of-make": "1874",
-    "industry": "Chemical Distribution",
-    "city": "Essen",
-    "number-of-employees": "17000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/fraport-ag/"
   },
   {
     "name": "Covestro Deutschland AG",
@@ -669,7 +715,8 @@
     "industry": "Chemicals",
     "city": "Leverkusen",
     "number-of-employees": "17000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/covestro-deutschland-ag/"
   },
   {
     "name": "Siemens Energy AG",
@@ -677,7 +724,8 @@
     "industry": "Energy",
     "city": "Munich",
     "number-of-employees": "90000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/siemens-energy/"
   },
   {
     "name": "Innogy SE",
@@ -685,7 +733,8 @@
     "industry": "Energy",
     "city": "Essen",
     "number-of-employees": "40000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/innogy-se/"
   },
   {
     "name": "EWE AG",
@@ -693,7 +742,8 @@
     "industry": "Energy and Telecommunications",
     "city": "Oldenburg",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/ewe-ag/"
   },
   {
     "name": "Drägerwerk AG & Co. KGaA",
@@ -709,7 +759,8 @@
     "industry": "Tourism and Travel",
     "city": "Hannover",
     "number-of-employees": "70000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/tuigroup/"
   },
   {
     "name": "ZF Friedrichshafen AG",
@@ -717,15 +768,8 @@
     "industry": "Automotive Technology",
     "city": "Friedrichshafen",
     "number-of-employees": "160000",
-    "country": "Germany"
-  },
-  {
-    "name": "Daimler Truck AG",
-    "year-of-make": "2019",
-    "industry": "Automotive",
-    "city": "Stuttgart",
-    "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/zf-group/life/"
   },
   {
     "name": "Hilti Deutschland AG",
@@ -733,7 +777,8 @@
     "industry": "Construction Technology",
     "city": "Kaufering",
     "number-of-employees": "30000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hiltideutschlandag/"
   },
   {
     "name": "AUDI AG",
@@ -741,7 +786,8 @@
     "industry": "Automotive",
     "city": "Ingolstadt",
     "number-of-employees": "90000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/audi-ag/"
   },
   {
     "name": "Osram GmbH",
@@ -749,7 +795,8 @@
     "industry": "Lighting Solutions",
     "city": "Munich",
     "number-of-employees": "26000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/ams-osram/"
   },
   {
     "name": "B. Braun Melsungen AG",
@@ -757,7 +804,8 @@
     "industry": "Medical Technology",
     "city": "Melsungen",
     "number-of-employees": "63000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bbraun-group/"
   },
   {
     "name": "Bertelsmann SE & Co. KGaA",
@@ -765,7 +813,8 @@
     "industry": "Media",
     "city": "Gütersloh",
     "number-of-employees": "126000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bertelsmann/"
   },
   {
     "name": "KfW Bank",
@@ -773,7 +822,8 @@
     "industry": "Development Bank",
     "city": "Frankfurt",
     "number-of-employees": "6000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kfw/"
   },
   {
     "name": "DZ BANK AG",
@@ -781,7 +831,8 @@
     "industry": "Cooperative Banking",
     "city": "Frankfurt",
     "number-of-employees": "29000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/dzbank/"
   },
   {
     "name": "Deutsche Börse AG",
@@ -789,7 +840,8 @@
     "industry": "Financial Services",
     "city": "Eschborn",
     "number-of-employees": "6000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/deutscheboerse/"
   },
   {
     "name": "Merck Group",
@@ -797,7 +849,8 @@
     "industry": "Science and Technology",
     "city": "Darmstadt",
     "number-of-employees": "58000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/merck-group/"
   },
   {
     "name": "Freudenberg Group",
@@ -805,7 +858,8 @@
     "industry": "Diversified Industries",
     "city": "Weinheim",
     "number-of-employees": "52000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/freudenberg-group/"
   },
   {
     "name": "KPMG AG Wirtschaftsprüfungsgesellschaft",
@@ -816,20 +870,13 @@
     "country": "Germany"
   },
   {
-    "name": "TUI Group",
-    "year-of-make": "1923",
-    "industry": "Travel and Tourism",
-    "city": "Hanover",
-    "number-of-employees": "70000",
-    "country": "Germany"
-  },
-  {
     "name": "Boehringer Ingelheim GmbH",
     "year-of-make": "1885",
     "industry": "Pharmaceuticals",
     "city": "Ingelheim",
     "number-of-employees": "51000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/boehringer-ingelheim/"
   },
   {
     "name": "T-Systems International GmbH",
@@ -837,7 +884,8 @@
     "industry": "IT and Telecommunications",
     "city": "Frankfurt",
     "number-of-employees": "37000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/t-systems/"
   },
   {
     "name": "Siemens Healthineers AG",
@@ -845,7 +893,8 @@
     "industry": "Medical Technology",
     "city": "Erlangen",
     "number-of-employees": "54000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/siemens-healthineers/"
   },
   {
     "name": "Dr. Ing. h.c. F. Porsche AG",
@@ -853,15 +902,8 @@
     "industry": "Automotive",
     "city": "Stuttgart",
     "number-of-employees": "35000",
-    "country": "Germany"
-  },
-  {
-    "name": "Robert Bosch GmbH",
-    "year-of-make": "1886",
-    "industry": "Engineering and Technology",
-    "city": "Stuttgart",
-    "number-of-employees": "390000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/porsche-ag/"
   },
   {
     "name": "PwC Germany",
@@ -869,7 +911,8 @@
     "industry": "Accounting and Consulting",
     "city": "Frankfurt",
     "number-of-employees": "11000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/pwc-deutschland/"
   },
   {
     "name": "Ernst & Young GmbH Wirtschaftsprüfungsgesellschaft",
@@ -877,7 +920,8 @@
     "industry": "Accounting and Consulting",
     "city": "Stuttgart",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/ernst-&-young-gmbh-wirtschaftspr%C3%BCfungsgesellschaft/"
   },
   {
     "name": "Deloitte GmbH Wirtschaftsprüfungsgesellschaft",
@@ -888,28 +932,13 @@
     "country": "Germany"
   },
   {
-    "name": "Munich Re",
-    "year-of-make": "1880",
-    "industry": "Insurance",
-    "city": "Munich",
-    "number-of-employees": "42000",
-    "country": "Germany"
-  },
-  {
-    "name": "BMW Group",
-    "year-of-make": "1916",
-    "industry": "Automotive",
-    "city": "Munich",
-    "number-of-employees": "120000",
-    "country": "Germany"
-  },
-  {
     "name": "Volkswagen Commercial Vehicles",
     "year-of-make": "1947",
     "industry": "Automotive",
     "city": "Hanover",
     "number-of-employees": "17000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/volkswagen-commercial-vehicles-/"
   },
   {
     "name": "MAN Truck & Bus AG",
@@ -917,23 +946,8 @@
     "industry": "Automotive",
     "city": "Munich",
     "number-of-employees": "37000",
-    "country": "Germany"
-  },
-  {
-    "name": "Continental Automotive GmbH",
-    "year-of-make": "1871",
-    "industry": "Automotive",
-    "city": "Babenhausen",
-    "number-of-employees": "50000",
-    "country": "Germany"
-  },
-  {
-    "name": "Infineon Technologies AG",
-    "year-of-make": "1999",
-    "industry": "Semiconductors",
-    "city": "Munich",
-    "number-of-employees": "45000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/man-commercial-vehicles/"
   },
   {
     "name": "SAP Concur",
@@ -941,7 +955,8 @@
     "industry": "Software",
     "city": "Munich",
     "number-of-employees": "7000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sapconcur/"
   },
   {
     "name": "Zalando SE",
@@ -949,7 +964,8 @@
     "industry": "E-commerce",
     "city": "Berlin",
     "number-of-employees": "14000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/zalando/"
   },
   {
     "name": "Delivery Hero SE",
@@ -957,7 +973,8 @@
     "industry": "Food Delivery",
     "city": "Berlin",
     "number-of-employees": "27000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/delivery-hero-se/"
   },
   {
     "name": "HelloFresh SE",
@@ -965,7 +982,8 @@
     "industry": "Meal Kit Delivery",
     "city": "Berlin",
     "number-of-employees": "11000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hellofresh/"
   },
   {
     "name": "N26 GmbH",
@@ -973,7 +991,8 @@
     "industry": "Banking and Finance",
     "city": "Berlin",
     "number-of-employees": "4000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/n26/"
   },
   {
     "name": "FlixBus GmbH",
@@ -981,7 +1000,8 @@
     "industry": "Transportation",
     "city": "Munich",
     "number-of-employees": "3000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/flixbus/"
   },
   {
     "name": "TeamViewer AG",
@@ -989,7 +1009,8 @@
     "industry": "Software",
     "city": "Göppingen",
     "number-of-employees": "1000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/teamviewer/"
   },
   {
     "name": "Bosch Rexroth AG",
@@ -997,23 +1018,8 @@
     "industry": "Engineering and Technology",
     "city": "Lohr am Main",
     "number-of-employees": "29000",
-    "country": "Germany"
-  },
-  {
-    "name": "Wacker Neuson Linz GmbH",
-    "year-of-make": "1848",
-    "industry": "Construction and Machinery",
-    "city": "Linz am Rhein",
-    "number-of-employees": "5000",
-    "country": "Germany"
-  },
-  {
-    "name": "Porsche AG",
-    "year-of-make": "1931",
-    "industry": "Automotive",
-    "city": "Stuttgart",
-    "number-of-employees": "35000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bosch-rexroth/"
   },
   {
     "name": "Mercedes-Benz AG",
@@ -1021,31 +1027,8 @@
     "industry": "Automotive",
     "city": "Stuttgart",
     "number-of-employees": "150000",
-    "country": "Germany"
-  },
-  {
-    "name": "Deutsche Börse AG",
-    "year-of-make": "1993",
-    "industry": "Financial Services",
-    "city": "Frankfurt",
-    "number-of-employees": "6000",
-    "country": "Germany"
-  },
-  {
-    "name": "Fresenius Kabi AG",
-    "year-of-make": "1912",
-    "industry": "Pharmaceuticals and Medical Devices",
-    "city": "Bad Homburg",
-    "number-of-employees": "40000",
-    "country": "Germany"
-  },
-  {
-    "name": "Boehringer Ingelheim GmbH",
-    "year-of-make": "1885",
-    "industry": "Pharmaceuticals",
-    "city": "Ingelheim am Rhein",
-    "number-of-employees": "50000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mercedes-benz_ag/"
   },
   {
     "name": "Fresenius Helios",
@@ -1053,7 +1036,8 @@
     "industry": "Healthcare and Hospitals",
     "city": "Berlin",
     "number-of-employees": "120000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/helios-kliniken-gmbh/"
   },
   {
     "name": "Bosch Gruppe",
@@ -1061,7 +1045,8 @@
     "industry": "Engineering and Technology",
     "city": "Gerlingen",
     "number-of-employees": "400000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/bosch/"
   },
   {
     "name": "Deutsche Bundesbank",
@@ -1069,7 +1054,8 @@
     "industry": "Central Banking",
     "city": "Frankfurt",
     "number-of-employees": "9000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/deutsche-bundesbank/"
   },
   {
     "name": "Schenker AG",
@@ -1077,15 +1063,8 @@
     "industry": "Freight Transportation and Logistics",
     "city": "Essen",
     "number-of-employees": "76000",
-    "country": "Germany"
-  },
-  {
-    "name": "Deutsche Lufthansa Technik AG",
-    "year-of-make": "1994",
-    "industry": "Aviation Maintenance and Repair",
-    "city": "Hamburg",
-    "number-of-employees": "25000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/dbschenker/"
   },
   {
     "name": "PricewaterhouseCoopers GmbH",
@@ -1093,7 +1072,8 @@
     "industry": "Professional Services and Audit",
     "city": "Frankfurt",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/pwc/"
   },
   {
     "name": "IBM Deutschland GmbH",
@@ -1101,7 +1081,8 @@
     "industry": "Information Technology and Services",
     "city": "Ehningen",
     "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/ibm/life/lifeatibm/"
   },
   {
     "name": "Amazon Deutschland Services GmbH",
@@ -1109,23 +1090,8 @@
     "industry": "E-commerce and Retail",
     "city": "Munich",
     "number-of-employees": "20000",
-    "country": "Germany"
-  },
-  {
-    "name": "N26 Bank GmbH",
-    "year-of-make": "2013",
-    "industry": "Banking and Financial Services",
-    "city": "Berlin",
-    "number-of-employees": "2000",
-    "country": "Germany"
-  },
-  {
-    "name": "Bosch Group",
-    "year-of-make": "1886",
-    "industry": "Engineering and Manufacturing",
-    "city": "Stuttgart",
-    "number-of-employees": "400000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/amazon/"
   },
   {
     "name": "Kühne + Nagel International AG",
@@ -1141,23 +1107,8 @@
     "industry": "Fashion and Apparel",
     "city": "Metzingen",
     "number-of-employees": "14000",
-    "country": "Germany"
-  },
-  {
-    "name": "Henkel AG & Co. KGaA",
-    "year-of-make": "1876",
-    "industry": "Consumer Goods and Chemicals",
-    "city": "Dusseldorf",
-    "number-of-employees": "53000",
-    "country": "Germany"
-  },
-  {
-    "name": "Vodafone GmbH",
-    "year-of-make": "1992",
-    "industry": "Telecommunications and Information Technology",
-    "city": "Dusseldorf",
-    "number-of-employees": "14000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hugo-boss/"
   },
   {
     "name": "Fujitsu Technology Solutions GmbH",
@@ -1165,15 +1116,8 @@
     "industry": "Information Technology and Services",
     "city": "Munich",
     "number-of-employees": "1400",
-    "country": "Germany"
-  },
-  {
-    "name": "MAN Truck & Bus SE",
-    "year-of-make": "1758",
-    "industry": "Commercial Vehicles and Transportation",
-    "city": "Munich",
-    "number-of-employees": "37000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/fujitsu/"
   },
   {
     "name": "Kuehne + Nagel (AG & Co.) KG",
@@ -1181,15 +1125,8 @@
     "industry": "Logistics and Freight Forwarding",
     "city": "Hamburg",
     "number-of-employees": "78000",
-    "country": "Germany"
-  },
-  {
-    "name": "Miele & Cie. KG",
-    "year-of-make": "1899",
-    "industry": "Appliances and Home Goods",
-    "city": "Gutersloh",
-    "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kuehne-nagel/"
   },
   {
     "name": "Merz Pharma GmbH & Co. KGaA",
@@ -1197,15 +1134,8 @@
     "industry": "Pharmaceuticals and Aesthetics",
     "city": "Frankfurt",
     "number-of-employees": "3000",
-    "country": "Germany"
-  },
-  {
-    "name": "Metro AG",
-    "year-of-make": "1964",
-    "industry": "Retail and Wholesale",
-    "city": "Dusseldorf",
-    "number-of-employees": "100000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/merz-pharma-gmbh-co-kgaa-reinheim/"
   },
   {
     "name": "Aldi Group",
@@ -1213,15 +1143,8 @@
     "industry": "Retail and Grocery",
     "city": "Essen",
     "number-of-employees": "100000",
-    "country": "Germany"
-  },
-  {
-    "name": "Rewe Group",
-    "year-of-make": "1927",
-    "industry": "Retail and Grocery",
-    "city": "Cologne",
-    "number-of-employees": "390000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/aldi-sued/"
   },
   {
     "name": "Schwarz Gruppe",
@@ -1229,7 +1152,8 @@
     "industry": "Retail and Grocery",
     "city": "Neckarsulm",
     "number-of-employees": "450000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/schwarzgruppeint/"
   },
   {
     "name": "DMK Group",
@@ -1237,7 +1161,8 @@
     "industry": "Dairy and Food Processing",
     "city": "Zeven",
     "number-of-employees": "8000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/dmkrestaurants/"
   },
   {
     "name": "KUKA Robotics GmbH",
@@ -1245,23 +1170,8 @@
     "industry": "Automation and Robotics",
     "city": "Augsburg",
     "number-of-employees": "10000",
-    "country": "Germany"
-  },
-  {
-    "name": "Wacker Neuson Linz GmbH",
-    "year-of-make": "1848",
-    "industry": "Construction and Heavy Machinery",
-    "city": "Linz",
-    "number-of-employees": "5000",
-    "country": "Germany"
-  },
-  {
-    "name": "Ceconomy AG",
-    "year-of-make": "2017",
-    "industry": "Electronics and Retail",
-    "city": "Dusseldorf",
-    "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kukaglobal/"
   },
   {
     "name": "FlixMobility GmbH",
@@ -1269,7 +1179,8 @@
     "industry": "Mobility and Transportation",
     "city": "Munich",
     "number-of-employees": "3000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/flixmobility-gmbh/"
   },
   {
     "name": "Sartorius AG",
@@ -1277,7 +1188,8 @@
     "industry": "Biotechnology and Life Sciences",
     "city": "Gottingen",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sartorius/"
   },
   {
     "name": "Wayfair GmbH",
@@ -1285,15 +1197,8 @@
     "industry": "E-commerce and Home Goods",
     "city": "Berlin",
     "number-of-employees": "5000",
-    "country": "Germany"
-  },
-  {
-    "name": "Delivery Hero Germany GmbH",
-    "year-of-make": "2011",
-    "industry": "Food Delivery and Technology",
-    "city": "Berlin",
-    "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/wayfair/"
   },
   {
     "name": "Home24 SE",
@@ -1301,7 +1206,8 @@
     "industry": "E-commerce and Home Furniture",
     "city": "Berlin",
     "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/home24/"
   },
   {
     "name": "Mister Spex GmbH",
@@ -1309,7 +1215,8 @@
     "industry": "E-commerce and Eyewear",
     "city": "Berlin",
     "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mister-spex/"
   },
   {
     "name": "Auto1 Group GmbH",
@@ -1317,7 +1224,8 @@
     "industry": "Automotive and Technology",
     "city": "Berlin",
     "number-of-employees": "4000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/auto1-group/"
   },
   {
     "name": "Foodspring GmbH",
@@ -1325,7 +1233,8 @@
     "industry": "Health and Nutrition",
     "city": "Berlin",
     "number-of-employees": "1000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/foodspring/"
   },
   {
     "name": "Raisin GmbH",
@@ -1333,7 +1242,8 @@
     "industry": "Fintech and Banking",
     "city": "Berlin",
     "number-of-employees": "1000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/join-raisin-ds/"
   },
   {
     "name": "smallpdf GmbH",
@@ -1341,7 +1251,8 @@
     "industry": "Software and Technology",
     "city": "Berlin",
     "number-of-employees": "100-249",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/smallpdf/"
   },
   {
     "name": "Jimdo GmbH",
@@ -1349,7 +1260,8 @@
     "industry": "Website Building and E-commerce",
     "city": "Hamburg",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/jimdo/"
   },
   {
     "name": "Personio GmbH",
@@ -1357,7 +1269,8 @@
     "industry": "Human Resources and Software",
     "city": "Munich",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/personio/"
   },
   {
     "name": "Marley Spoon AG",
@@ -1365,7 +1278,8 @@
     "industry": "Meal Kits and Food Delivery",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/marley-spoon/"
   },
   {
     "name": "HomeToGo GmbH",
@@ -1373,7 +1287,8 @@
     "industry": "Travel and Vacation Rentals",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hometogo/"
   },
   {
     "name": "Grover Group GmbH",
@@ -1381,7 +1296,8 @@
     "industry": "Consumer Electronics and Rentals",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/grover/"
   },
   {
     "name": "reBuy reCommerce GmbH",
@@ -1389,7 +1305,8 @@
     "industry": "E-commerce and Used Goods",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/rebuy-recommerce-gmbh/"
   },
   {
     "name": "8fit GmbH",
@@ -1397,7 +1314,8 @@
     "industry": "Health and Fitness",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/8fit/"
   },
   {
     "name": "Personify XP GmbH",
@@ -1405,7 +1323,8 @@
     "industry": "Artificial Intelligence and Personalization",
     "city": "Munich",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/personify-xp/"
   },
   {
     "name": "Sensorberg GmbH",
@@ -1413,7 +1332,8 @@
     "industry": "Internet of Things (IoT) and Proptech",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sensorberg-gmbh/"
   },
   {
     "name": "4tiitoo GmbH",
@@ -1421,7 +1341,8 @@
     "industry": "Human-Computer Interaction and Software",
     "city": "Munich",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/4tiitoo/"
   },
   {
     "name": "Emteria GmbH",
@@ -1429,7 +1350,8 @@
     "industry": "Embedded Systems and Software",
     "city": "Karlsruhe",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/emteria/"
   },
   {
     "name": "Vizibl GmbH",
@@ -1437,7 +1359,8 @@
     "industry": "Supply Chain and Procurement",
     "city": "Munich",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/vizibl/"
   },
   {
     "name": "Joonko GmbH",
@@ -1445,7 +1368,8 @@
     "industry": "Human Resources and Diversity",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/joonkorecruitmentsoftware/"
   },
   {
     "name": "Carla Cargo GmbH",
@@ -1453,7 +1377,8 @@
     "industry": "E-mobility and Logistics",
     "city": "Berlin",
     "number-of-employees": "10-49",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/carlacargo/"
   },
   {
     "name": "KINEXON GmbH",
@@ -1461,7 +1386,8 @@
     "industry": "Internet of Things (IoT) and Sports Analytics",
     "city": "Munich",
     "number-of-employees": "10-49",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kinexon/"
   },
   {
     "name": "EyeEm Mobile GmbH",
@@ -1469,7 +1395,8 @@
     "industry": "Photography and Artificial Intelligence",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/eyeem/"
   },
   {
     "name": "Contentful GmbH",
@@ -1477,7 +1404,8 @@
     "industry": "Content Management and Headless CMS",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/contentful/"
   },
   {
     "name": "Aiven GmbH",
@@ -1485,7 +1413,8 @@
     "industry": "Cloud Computing and Database Management",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/aiven/"
   },
   {
     "name": "Signavio GmbH",
@@ -1493,7 +1422,8 @@
     "industry": "Business Process Management and Software",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/signavio/"
   },
   {
     "name": "Coyo GmbH",
@@ -1501,7 +1431,8 @@
     "industry": "Internal Communications and Collaboration",
     "city": "Hamburg",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/haiilo/"
   },
   {
     "name": "InVision GmbH",
@@ -1509,7 +1440,8 @@
     "industry": "Digital Product Design and Prototyping",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/invisionapp/"
   },
   {
     "name": "Zenjob GmbH",
@@ -1517,7 +1449,8 @@
     "industry": "On-demand Staffing and Gig Economy",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/zenjob/"
   },
   {
     "name": "Spryker Systems GmbH",
@@ -1525,7 +1458,8 @@
     "industry": "E-commerce and Cloud Commerce",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/spryker/"
   },
   {
     "name": "Mambu GmbH",
@@ -1533,7 +1467,8 @@
     "industry": "Banking and Financial Technology",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mambu/"
   },
   {
     "name": "TIER Mobility GmbH",
@@ -1541,7 +1476,8 @@
     "industry": "Micro-mobility and E-scooters",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/tiermobility/"
   },
   {
     "name": "Quobyte GmbH",
@@ -1549,7 +1485,8 @@
     "industry": "Data Storage and Software-defined Storage",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/quobyte/"
   },
   {
     "name": "Zattoo Europa AG",
@@ -1557,7 +1494,8 @@
     "industry": "Streaming TV and Video",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/zattoo/"
   },
   {
     "name": "eGym GmbH",
@@ -1565,7 +1503,8 @@
     "industry": "Fitness and Health Technology",
     "city": "Munich",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/egym-global/"
   },
   {
     "name": "Cirplus GmbH",
@@ -1573,7 +1512,8 @@
     "industry": "Circular Economy and Sustainable Materials",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/cirplus/"
   },
   {
     "name": "CoachHub GmbH",
@@ -1581,7 +1521,8 @@
     "industry": "Professional Coaching and EdTech",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/coachhub/"
   },
   {
     "name": "Beekeeper AG",
@@ -1589,7 +1530,8 @@
     "industry": "Internal Communication and Workplace Collaboration",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/beekeeper/"
   },
   {
     "name": "unu GmbH",
@@ -1597,7 +1539,8 @@
     "industry": "Electric Mobility and Urban Mobility",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/unu-ug/"
   },
   {
     "name": "wefox Germany GmbH",
@@ -1605,7 +1548,8 @@
     "industry": "InsurTech and Digital Insurance",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/wefox/"
   },
   {
     "name": "Styla GmbH",
@@ -1613,7 +1557,8 @@
     "industry": "Content Commerce and Digital Marketing",
     "city": "Berlin",
     "number-of-employees": "50-99",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/styla-com/"
   },
   {
     "name": "Camunda Services GmbH",
@@ -1621,7 +1566,8 @@
     "industry": "Business Process Automation and Workflow Management",
     "city": "Berlin",
     "number-of-employees": "250-499",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/camunda/"
   },
   {
     "name": "Airbus Group",
@@ -1629,7 +1575,8 @@
     "industry": "Aerospace and Defense",
     "city": "Hamburg",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/showcase/airbus/"
   },
   {
     "name": "Montblanc International GmbH",
@@ -1637,7 +1584,8 @@
     "industry": "Luxury Goods and Writing Instruments",
     "city": "Hamburg",
     "number-of-employees": "1000-4999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/montblanc/"
   },
   {
     "name": "OTTO GmbH & Co. KG",
@@ -1645,7 +1593,8 @@
     "industry": "E-commerce and Retail",
     "city": "Hamburg",
     "number-of-employees": "5000-9999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/otto/"
   },
   {
     "name": "Tchibo GmbH",
@@ -1653,7 +1602,8 @@
     "industry": "Retail and Consumer Goods",
     "city": "Hamburg",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/tchibo/"
   },
   {
     "name": "Jungheinrich AG",
@@ -1661,7 +1611,8 @@
     "industry": "Material Handling and Intralogistics",
     "city": "Hamburg",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/jungheinrich-ag/"
   },
   {
     "name": "Aurubis AG",
@@ -1669,7 +1620,8 @@
     "industry": "Metal Processing and Recycling",
     "city": "Hamburg",
     "number-of-employees": "5000-9999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/aurubis/"
   },
   {
     "name": "Gruner + Jahr GmbH",
@@ -1677,7 +1629,8 @@
     "industry": "Media and Publishing",
     "city": "Hamburg",
     "number-of-employees": "1000-4999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/gruner-jahr-gmbh/"
   },
   {
     "name": "Eppendorf AG",
@@ -1685,23 +1638,8 @@
     "industry": "Biotechnology and Life Sciences",
     "city": "Hamburg",
     "number-of-employees": "1000-4999",
-    "country": "Germany"
-  },
-  {
-    "name": "Drägerwerk AG & Co. KGaA",
-    "year-of-make": "1889",
-    "industry": "Medical and Safety Technology",
-    "city": "Hamburg",
-    "number-of-employees": "5000-9999",
-    "country": "Germany"
-  },
-  {
-    "name": "Lufthansa Technik AG",
-    "year-of-make": "1995",
-    "industry": "Aviation Maintenance and Repair",
-    "city": "Hamburg",
-    "number-of-employees": "5000-9999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/eppendorf/"
   },
   {
     "name": "Körber AG",
@@ -1709,7 +1647,8 @@
     "industry": "Supply Chain Solutions and Technology",
     "city": "Hamburg",
     "number-of-employees": "5000-9999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/k%C3%B6rber/"
   },
   {
     "name": "DESY (Deutsches Elektronen-Synchrotron)",
@@ -1717,7 +1656,8 @@
     "industry": "Research and Particle Physics",
     "city": "Hamburg",
     "number-of-employees": "1000-4999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/desy/"
   },
   {
     "name": "Hapag-Lloyd AG",
@@ -1725,7 +1665,8 @@
     "industry": "Shipping and Logistics",
     "city": "Hamburg",
     "number-of-employees": "5000-9999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hapag-lloyd-ag/"
   },
   {
     "name": "Hermes Germany GmbH",
@@ -1733,7 +1674,8 @@
     "industry": "E-commerce and Logistics",
     "city": "Hamburg",
     "number-of-employees": "1000-4999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hermes/"
   },
   {
     "name": "XING SE",
@@ -1741,7 +1683,8 @@
     "industry": "Professional Networking and Career Services",
     "city": "Hamburg",
     "number-of-employees": "1000-4999",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/xing-marketing-solutions-gmbh/"
   },
   {
     "name": "Haspa Finanzholding",
@@ -1749,31 +1692,8 @@
     "industry": "Banking and Financial Services",
     "city": "Hamburg",
     "number-of-employees": "1000-4999",
-    "country": "Germany"
-  },
-  {
-    "name": "IBM Germany GmbH",
-    "year-of-make": "1922",
-    "industry": "IT Services and Consulting",
-    "city": "Hamburg",
-    "number-of-employees": "1000-4999",
-    "country": "Germany"
-  },
-  {
-    "name": "E.ON SE",
-    "year-of-make": "2000",
-    "industry": "Utilities",
-    "city": "Düsseldorf",
-    "number-of-employees": "75000",
-    "country": "Germany"
-  },
-  {
-    "name": "Merck KGaA",
-    "year-of-make": "1668",
-    "industry": "Pharmaceuticals",
-    "city": "Düsseldorf",
-    "number-of-employees": "58000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hamburger-sparkasse/"
   },
   {
     "name": "Gerresheimer AG",
@@ -1781,7 +1701,8 @@
     "industry": "Healthcare",
     "city": "Düsseldorf",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/gerresheimer/"
   },
   {
     "name": "C&A Mode GmbH & Co. KG",
@@ -1789,7 +1710,8 @@
     "industry": "Retail",
     "city": "Düsseldorf",
     "number-of-employees": "35000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/c-&-a-mode-gmbh-&-co.-kg/about/"
   },
   {
     "name": "GEA Group AG",
@@ -1797,7 +1719,8 @@
     "industry": "Industrial Equipment",
     "city": "Düsseldorf",
     "number-of-employees": "19000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/geagroup/"
   },
   {
     "name": "Trivago GmbH",
@@ -1805,7 +1728,8 @@
     "industry": "Online Travel",
     "city": "Düsseldorf",
     "number-of-employees": "1400",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/trivagonv/"
   },
   {
     "name": "Klöckner & Co SE",
@@ -1813,7 +1737,8 @@
     "industry": "Metal Processing",
     "city": "Düsseldorf",
     "number-of-employees": "8000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kl%C3%B6ckner-&-co-se/"
   },
   {
     "name": "Qiagen GmbH",
@@ -1821,7 +1746,8 @@
     "industry": "Biotechnology",
     "city": "Düsseldorf",
     "number-of-employees": "5600",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/qiagen/"
   },
   {
     "name": "SICK AG",
@@ -1829,7 +1755,8 @@
     "industry": "Sensors",
     "city": "Düsseldorf",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sicksensorintelligence/"
   },
   {
     "name": "Talanx AG",
@@ -1837,7 +1764,8 @@
     "industry": "Insurance",
     "city": "Düsseldorf",
     "number-of-employees": "23000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/talanx/"
   },
   {
     "name": "Amprion GmbH",
@@ -1845,7 +1773,8 @@
     "industry": "Energy",
     "city": "Düsseldorf",
     "number-of-employees": "1700",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/amprion-gmbh/"
   },
   {
     "name": "AWISTA Gesellschaft für Abfallwirtschaft und Stadtreinigung mbH",
@@ -1853,7 +1782,8 @@
     "industry": "Waste Management",
     "city": "Düsseldorf",
     "number-of-employees": "1800",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/awista-gesellschaft-f%C3%A3%C2%BCr-abfallwirtschaft-und-stadtreinigung-mbh/"
   },
   {
     "name": "GESCO AG",
@@ -1861,7 +1791,8 @@
     "industry": "Industrial Services",
     "city": "Düsseldorf",
     "number-of-employees": "1100",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/gesco/"
   },
   {
     "name": "RHEINPFALZ Verlag und Druckerei GmbH & Co. KG",
@@ -1869,7 +1800,8 @@
     "industry": "Media",
     "city": "Düsseldorf",
     "number-of-employees": "1300",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/rheinpfalz-verlag-und-druckerei-gmbh-&-co.-kg/"
   },
   {
     "name": "Käte Ahlmann Stiftung GmbH",
@@ -1877,7 +1809,8 @@
     "industry": "Non-profit",
     "city": "Düsseldorf",
     "number-of-employees": "N/A",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/eggelbusch-gmbh/"
   },
   {
     "name": "MAN SE",
@@ -1885,39 +1818,8 @@
     "industry": "Automotive",
     "city": "Munich",
     "number-of-employees": "35708",
-    "country": "Germany"
-  },
-  {
-    "name": "ProSiebenSat.1 Media SE",
-    "year-of-make": "2000",
-    "industry": "Media",
-    "city": "Munich",
-    "number-of-employees": "6400",
-    "country": "Germany"
-  },
-  {
-    "name": "KPMG AG Wirtschaftsprüfungsgesellschaft",
-    "year-of-make": "1890",
-    "industry": "Accounting",
-    "city": "Munich",
-    "number-of-employees": "12500",
-    "country": "Germany"
-  },
-  {
-    "name": "Infineon Technologies Americas Corp.",
-    "year-of-make": "1999",
-    "industry": "Semiconductor",
-    "city": "Munich",
-    "number-of-employees": "N/A",
-    "country": "Germany"
-  },
-  {
-    "name": "E.ON Energie Deutschland GmbH",
-    "year-of-make": "2000",
-    "industry": "Utilities",
-    "city": "Munich",
-    "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/man-commercial-vehicles/"
   },
   {
     "name": "HypoVereinsbank - Unicredit Bank AG",
@@ -1925,7 +1827,8 @@
     "industry": "Banking",
     "city": "Munich",
     "number-of-employees": "18500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hypovereinsbank-unicredit-bank-ag/"
   },
   {
     "name": "ADAC SE",
@@ -1933,15 +1836,8 @@
     "industry": "Automotive Services",
     "city": "Munich",
     "number-of-employees": "10000",
-    "country": "Germany"
-  },
-  {
-    "name": "PwC Germany",
-    "year-of-make": "1910",
-    "industry": "Consulting",
-    "city": "Munich",
-    "number-of-employees": "12000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/adac/"
   },
   {
     "name": "Giesecke+Devrient GmbH",
@@ -1949,7 +1845,8 @@
     "industry": "Security Technology",
     "city": "Munich",
     "number-of-employees": "11000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/giesecke-devrient/"
   },
   {
     "name": "Knorr-Bremse Systeme für Nutzfahrzeuge GmbH",
@@ -1957,7 +1854,8 @@
     "industry": "Automotive",
     "city": "Munich",
     "number-of-employees": "1800",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/knorr-bremse-systeme-f%C3%BCr-nutzfahrzeuge-gmbh/"
   },
   {
     "name": "Rohde & Schwarz GmbH & Co KG",
@@ -1965,7 +1863,8 @@
     "industry": "Electronics",
     "city": "Munich",
     "number-of-employees": "12000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/rohde-&-schwarz/"
   },
   {
     "name": "Munich Airport",
@@ -1973,7 +1872,8 @@
     "industry": "Aviation",
     "city": "Munich",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/munich-airport-international-gmbh/"
   },
   {
     "name": "Konica Minolta Business Solutions Europe GmbH",
@@ -1981,7 +1881,8 @@
     "industry": "Office Solutions",
     "city": "Munich",
     "number-of-employees": "2500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/konica-minolta-business-solutions-europe-gmbh/"
   },
   {
     "name": "Altran Deutschland S.A.S. & Co. KG",
@@ -1989,7 +1890,8 @@
     "industry": "Engineering",
     "city": "Munich",
     "number-of-employees": "50000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/altran/"
   },
   {
     "name": "Metaio GmbH",
@@ -1997,7 +1899,8 @@
     "industry": "Augmented Reality",
     "city": "Munich",
     "number-of-employees": "N/A",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/metaio/"
   },
   {
     "name": "KraussMaffei Group GmbH",
@@ -2005,7 +1908,8 @@
     "industry": "Machinery",
     "city": "Munich",
     "number-of-employees": "5500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/krauss-maffei/"
   },
   {
     "name": "The Boston Consulting Group GmbH",
@@ -2013,7 +1917,8 @@
     "industry": "Consulting",
     "city": "Munich",
     "number-of-employees": "18500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/boston-consulting-group/"
   },
   {
     "name": "All for One Group AG",
@@ -2021,7 +1926,8 @@
     "industry": "IT Services",
     "city": "Munich",
     "number-of-employees": "1700",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/all-for-one-group-se/"
   },
   {
     "name": "BFFT GmbH",
@@ -2029,7 +1935,8 @@
     "industry": "Automotive Engineering",
     "city": "Munich",
     "number-of-employees": "800",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/edaggroup/"
   },
   {
     "name": "ERGO Group AG",
@@ -2037,7 +1944,8 @@
     "industry": "Insurance",
     "city": "Munich",
     "number-of-employees": "3700",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/ergo-group-ag/"
   },
   {
     "name": "Hubert Burda Media",
@@ -2045,7 +1953,8 @@
     "industry": "Media",
     "city": "Munich",
     "number-of-employees": "12500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hubert-burda-media/"
   },
   {
     "name": "Dallmeier electronic GmbH & Co. KG",
@@ -2053,7 +1962,8 @@
     "industry": "Video Surveillance",
     "city": "Munich",
     "number-of-employees": "1000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/dallmeier-electronic/"
   },
   {
     "name": "Nemetschek Group",
@@ -2061,15 +1971,8 @@
     "industry": "Software",
     "city": "Munich",
     "number-of-employees": "3000",
-    "country": "Germany"
-  },
-  {
-    "name": "Rohde & Schwarz Cybersecurity GmbH",
-    "year-of-make": "1933",
-    "industry": "Cybersecurity",
-    "city": "Munich",
-    "number-of-employees": "500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/nemetschekgroup/"
   },
   {
     "name": "Knauf Gips KG",
@@ -2077,15 +1980,8 @@
     "industry": "Building Materials",
     "city": "Munich",
     "number-of-employees": "35000",
-    "country": "Germany"
-  },
-  {
-    "name": "TÜV Rheinland Holding AG",
-    "year-of-make": "1872",
-    "industry": "Testing and Certification",
-    "city": "Munich",
-    "number-of-employees": "20000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/knauf-gips-kg/"
   },
   {
     "name": "ATOS IT Solutions and Services GmbH",
@@ -2093,7 +1989,8 @@
     "industry": "IT Services",
     "city": "Munich",
     "number-of-employees": "100000+",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/atos-it-solutions-and-services-a-s/"
   },
   {
     "name": "MicroNova AG",
@@ -2101,7 +1998,8 @@
     "industry": "Automotive Electronics",
     "city": "Munich",
     "number-of-employees": "700",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/micronova/"
   },
   {
     "name": "Secunet Security Networks AG",
@@ -2109,7 +2007,8 @@
     "industry": "IT Security",
     "city": "Munich",
     "number-of-employees": "800",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/secunet-security-networks-ag/"
   },
   {
     "name": "ESG Elektroniksystem- und Logistik-GmbH",
@@ -2117,7 +2016,8 @@
     "industry": "Defense and Aviation",
     "city": "Munich",
     "number-of-employees": "3500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/esg-gmbh/"
   },
   {
     "name": "Nemak Europe GmbH",
@@ -2125,7 +2025,8 @@
     "industry": "Automotive",
     "city": "Munich",
     "number-of-employees": "27000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/nemak/"
   },
   {
     "name": "Sandoz GmbH",
@@ -2133,7 +2034,8 @@
     "industry": "Pharmaceuticals",
     "city": "Munich",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sandoz/"
   },
   {
     "name": "REWE Group",
@@ -2141,7 +2043,8 @@
     "industry": "Retail",
     "city": "Munich",
     "number-of-employees": "300000+",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/rewegroup/"
   },
   {
     "name": "KPMG AG",
@@ -2149,15 +2052,8 @@
     "industry": "Professional Services",
     "city": "Munich",
     "number-of-employees": "20000",
-    "country": "Germany"
-  },
-  {
-    "name": "adidas AG",
-    "year-of-make": "1949",
-    "industry": "Sports Apparel",
-    "city": "Munich",
-    "number-of-employees": "57000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/kpmg-deutschland/"
   },
   {
     "name": "Unify Communications GmbH & Co. KG",
@@ -2165,7 +2061,8 @@
     "industry": "Communications",
     "city": "Munich",
     "number-of-employees": "N/A",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/unify-communications-and-collaboration-gmbh-&-co.-kg-/about/"
   },
   {
     "name": "Sixt SE",
@@ -2173,7 +2070,8 @@
     "industry": "Car Rental",
     "city": "Munich",
     "number-of-employees": "7000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sixt/"
   },
   {
     "name": "Hubert Haupt Immobilien Holding GmbH",
@@ -2181,7 +2079,8 @@
     "industry": "Real Estate",
     "city": "Munich",
     "number-of-employees": "1000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/hubert-haupt-immobilien-holding/"
   },
   {
     "name": "Linde Material Handling GmbH",
@@ -2189,7 +2088,8 @@
     "industry": "Material Handling",
     "city": "Munich",
     "number-of-employees": "12000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/linde-material-handling/"
   },
   {
     "name": "Santander Consumer Bank AG",
@@ -2197,7 +2097,8 @@
     "industry": "Banking",
     "city": "Munich",
     "number-of-employees": "13000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/nadia-taurino-finanziamenti/"
   },
   {
     "name": "DELO Industrial Adhesives",
@@ -2205,7 +2106,8 @@
     "industry": "Adhesives",
     "city": "Munich",
     "number-of-employees": "700",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/in/delo-industrial-adhesives-80287823/"
   },
   {
     "name": "MCM Klosterfrau Vertriebsgesellschaft mbH",
@@ -2213,7 +2115,8 @@
     "industry": "Healthcare",
     "city": "Munich",
     "number-of-employees": "2000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mcm-klosterfrau-vertriebsgesellschaft-mbh/"
   },
   {
     "name": "Technische Universität München (TUM)",
@@ -2221,7 +2124,8 @@
     "industry": "Education",
     "city": "Munich",
     "number-of-employees": "N/A",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/technische-universitat-munchen/"
   },
   {
     "name": "DocuWare GmbH",
@@ -2229,7 +2133,8 @@
     "industry": "Document Management",
     "city": "Munich",
     "number-of-employees": "400",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/docuware-corporation/"
   },
   {
     "name": "Limbach Gruppe SE",
@@ -2237,7 +2142,8 @@
     "industry": "Engineering",
     "city": "Munich",
     "number-of-employees": "1500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/limbach-gruppe-se/"
   },
   {
     "name": "ABALON Recruitment GmbH",
@@ -2245,7 +2151,8 @@
     "industry": "Recruitment",
     "city": "Munich",
     "number-of-employees": "100",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/abalon-group/"
   },
   {
     "name": "Flughafen München GmbH",
@@ -2253,7 +2160,8 @@
     "industry": "Aviation",
     "city": "Munich",
     "number-of-employees": "10000",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/munich-airport/"
   },
   {
     "name": "Candis GmbH",
@@ -2261,7 +2169,8 @@
     "industry": "Software",
     "city": "Berlin",
     "number-of-employees": "100",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/candis-gmbh/"
   },
   {
     "name": "OneFootball GmbH",
@@ -2269,6 +2178,7 @@
     "industry": "Software",
     "city": "Berlin",
     "number-of-employees": "500",
-    "country": "Germany"
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/onefootball/"
   }
 ]
