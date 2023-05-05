@@ -16,6 +16,18 @@ I collected a portion of companies that offered VISA sponsorship in **Germany** 
 **Please support us with a shinny ⭐**.
 
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
 📫 Let me know your suggestions & ideas:
 - [![Twitter Follow](https://img.shields.io/twitter/follow/siaexplains?style=social)](https://twitter.com/siaexplains)
 - 🌐 [LinkedIn](https://www.linkedin.com/in/siavash-ghanbari/)
