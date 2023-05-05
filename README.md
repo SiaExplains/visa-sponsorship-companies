@@ -18,14 +18,12 @@ I collected a portion of companies that offered VISA sponsorship in **Germany** 
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = GitHub_SiaExplains/visa-sponsorship-companies"/>
+</a>
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+Made with [contributors-img](https://contrib.rocks).
 
 
 📫 Let me know your suggestions & ideas:
