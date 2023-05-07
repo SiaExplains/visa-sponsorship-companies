@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Vodafone",
+    "year-of-make": "1982",
+    "industry": "Telecommunications",
+    "city": "London",
+    "number-of-employees": "130000",
+    "country": "England",
+    "linkedin": "https://www.linkedin.com/company/vodafone/jobs"
+  },
+  {
+    "name": "Geeks LTD",
+    "year-of-make": "2007",
+    "industry": "IT Services and IT Consulting",
+    "city": "Sutton",
+    "number-of-employees": "200",
+    "country": "England",
+    "linkedin": "https://www.linkedin.com/company/geeks-ltd/about"
+  },
+  {
+    "name": "Unilever",
+    "year-of-make": "1872",
+    "industry": "Manufacturing",
+    "city": "Blackfriars",
+    "number-of-employees": "110000",
+    "country": "England",
+    "linkedin": "https://www.linkedin.com/company/unilever/about"
+  },
+  {
+    "name": "Wise",
+    "year-of-make": "2011",
+    "industry": "Financial Services",
+    "city": "London",
+    "number-of-employees": "5000",
+    "country": "London",
+    "linkedin": "https://www.linkedin.com/company/wiseaccount/about"
+  },
+  {
+    "name": "Jaja Finance",
+    "year-of-make": "2016",
+    "industry": "Financial Services",
+    "city": "London",
+    "number-of-employees": "200",
+    "country": "England",
+    "linkedin": "https://www.linkedin.com/company/jaja-finance/about"
+  }
+]
