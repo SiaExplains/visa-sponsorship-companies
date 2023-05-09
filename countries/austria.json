@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Journi",
+    "year-of-make": "2014",
+    "industry": "Technology, Information and Internet",
+    "city": "Vienna",
+    "number-of-employees": "50",
+    "country": "Austria",
+    "linkedin": "https://www.linkedin.com/company/journiapp/jobs"
+  },
+  {
+    "name": "ChargePoint",
+    "year-of-make": "2007",
+    "industry": "Motor Vehicle Manufacturing",
+    "city": "Campbell",
+    "number-of-employees": "2000",
+    "country": "Austria",
+    "linkedin": "https://www.linkedin.com/company/chargepoint/jobs"
+  }
+]

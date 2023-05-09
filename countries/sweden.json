@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Oneflow",
+    "year-of-make": "2012",
+    "industry": "Software Development",
+    "city": "Stockholm",
+    "number-of-employees": "300",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/oneflowcom/jobs"
+  },
+  {
+    "name": "Digital Route AB",
+    "year-of-make": "2000",
+    "industry": "IT Services and IT Consulting",
+    "city": "Stockholm",
+    "number-of-employees": "300",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/digital-route/jobs"
+  },
+  {
+    "name": "LeoVegas",
+    "year-of-make": "2012",
+    "industry": "Gambling Facilities and Casinos",
+    "city": "Stockholm",
+    "number-of-employees": "1000",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/leovegasgroup/jobs"
+  },
+  {
+    "name": "Soltia AB",
+    "year-of-make": "2012",
+    "industry": "IT Services and IT Consulting",
+    "city": "Stockholm",
+    "number-of-employees": "100",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/soltiaab/jobs"
+  },
+  {
+    "name": "Accedo",
+    "year-of-make": "2004",
+    "industry": "Software Development",
+    "city": "Stockholm",
+    "number-of-employees": "1000",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/accedo-tv/jobs"
+  },
+  {
+    "name": "DoWhile",
+    "year-of-make": "2017",
+    "industry": "Software Development",
+    "city": "Gothenburg",
+    "number-of-employees": "100",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/dowhile-consulting-scandinavia-ab/jobs"
+  },
+  {
+    "name": "Epidemic Sound",
+    "year-of-make": "2009",
+    "industry": "Musicians",
+    "city": "Stockholm",
+    "number-of-employees": "1000",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/epidemic-sound/jobs"
+  },
+  {
+    "name": "King",
+    "year-of-make": "2003",
+    "industry": "Entertainment Providers",
+    "city": "Stockholm",
+    "number-of-employees": "4000",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/king/jobs"
+  },
+  {
+    "name": "Klarna",
+    "year-of-make": "2005",
+    "industry": "Software Development",
+    "city": "Stockholm",
+    "number-of-employees": "6000",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/klarna/jobs"
+  },
+  {
+    "name": "Rebtel",
+    "year-of-make": "2006",
+    "industry": "Internet Publishing",
+    "city": "Stockholm",
+    "number-of-employees": "100",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/rebtel/jobs"
+  },
+  {
+    "name": "Spotify",
+    "year-of-make": "2006",
+    "industry": "Musicians",
+    "city": "Stockholm",
+    "number-of-employees": "14000",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/spotify/jobs"
+  },
+  {
+    "name": "Tele2",
+    "year-of-make": "1993",
+    "industry": "Telecommunications",
+    "city": "Kista",
+    "number-of-employees": "6000",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/tele2/jobs"
+  },
+  {
+    "name": "Truecaller",
+    "year-of-make": "2009",
+    "industry": "Technology, Information and Internet",
+    "city": "Norrmalm",
+    "number-of-employees": "600",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/truecaller/jobs"
+  }
+]
