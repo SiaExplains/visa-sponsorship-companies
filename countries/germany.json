@@ -91,6 +91,15 @@
     "linkedin": "https://www.linkedin.com/company/bayer-schweiz-ag/jobs"
   },
   {
+    "name": "IONOS",
+    "year-of-make": "1988",
+    "industry": "Cloud Computing",
+    "city": "Karlsruhe",
+    "number-of-employees": "4000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/ionos/"
+  },
+  {
     "name": "Deutsche Telekom AG",
     "year-of-make": "1995",
     "industry": "Telecommunications",
