@@ -277,5 +277,14 @@
     "number-of-employees": "200",
     "country": "Netherlands",
     "linkedin": "https://www.linkedin.com/company/adevinta/jobs"
+  },
+  {
+    "name": "Media.Monks",
+    "year-of-make": "2001",
+    "industry": "Advertising Services",
+    "city": "Hilversum",
+    "number-of-employees": "7000",
+    "country": "Netherlands",
+    "linkedin": "https://www.linkedin.com/company/mediamonks/jobs"
   }
 ]

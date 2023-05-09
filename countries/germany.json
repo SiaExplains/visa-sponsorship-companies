@@ -2189,5 +2189,203 @@
     "number-of-employees": "500",
     "country": "Germany",
     "linkedin": "https://www.linkedin.com/company/onefootball/jobs"
+  },
+  {
+    "name": "Check24",
+    "year-of-make": "1999",
+    "industry": "Technology, Information and Internet",
+    "city": "Munich",
+    "number-of-employees": "3000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/check24-vergleichsportal-gmbh/jobs"
+  },
+  {
+    "name": "Sportradar",
+    "year-of-make": "2001",
+    "industry": "Information Services",
+    "city": "St. Gallen",
+    "number-of-employees": "3000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sportradar/jobs"
+  },
+  {
+    "name": "Blinkist",
+    "year-of-make": "2012",
+    "industry": "E-Learning Providers",
+    "city": "Berlin",
+    "number-of-employees": "500",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/blinkist/jobs"
+  },
+  {
+    "name": "MBition",
+    "year-of-make": "2012",
+    "industry": "Software Development",
+    "city": "Berlin",
+    "number-of-employees": "1000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mbitiongmbh/jobs"
+  },
+  {
+    "name": "Trade Republic",
+    "year-of-make": "2014",
+    "industry": "Financial Services",
+    "city": "Berlin",
+    "number-of-employees": "1000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/trade-republic/jobs"
+  },
+  {
+    "name": "Holidu",
+    "year-of-make": "2014",
+    "industry": "IT Services and IT Consulting",
+    "city": "Munich",
+    "number-of-employees": "700",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/holidu/jobs"
+  },
+  {
+    "name": "Taxdoo",
+    "year-of-make": "2016",
+    "industry": "IT Services and IT Consulting",
+    "city": "Hamburg",
+    "number-of-employees": "300",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/taxdoo/jobs"
+  },
+  {
+    "name": "Vimcar",
+    "year-of-make": "2014",
+    "industry": "IT Services and IT Consulting",
+    "city": "Berlin",
+    "number-of-employees": "200",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/vimcar/jobs"
+  },
+  {
+    "name": "DataGuard",
+    "year-of-make": "2018",
+    "industry": "IT Services and IT Consulting",
+    "city": "Munich",
+    "number-of-employees": "300",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/dataguard1/jobs"
+  },
+  {
+    "name": "Alasco",
+    "year-of-make": "2018",
+    "industry": "Software Development",
+    "city": "Munich",
+    "number-of-employees": "300",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/alasco-software/jobs"
+  },
+  {
+    "name": "SENSORY-MINDS GMBH",
+    "year-of-make": "2009",
+    "industry": "IT Services and IT Consulting",
+    "city": "Darmstadt",
+    "number-of-employees": "100",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/sensory-minds/jobs"
+  },
+  {
+    "name": "Energy Robotics",
+    "year-of-make": "2019",
+    "industry": "Automation Machinery Manufacturing",
+    "city": "Darmstadt",
+    "number-of-employees": "100",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/energy-robotics/jobs"
+  },
+  {
+    "name": "AppsFactory",
+    "year-of-make": "2009",
+    "industry": "IT Services and IT Consulting",
+    "city": "Leipzig",
+    "number-of-employees": "300",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/appsfactory/jobs"
+  },
+  {
+    "name": "OWWN",
+    "year-of-make": "2018",
+    "industry": "Social Networking Platforms",
+    "city": "Berlin",
+    "number-of-employees": "50",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/owwnapp/jobs"
+  },
+  {
+    "name": "Solvians",
+    "year-of-make": "2006",
+    "industry": "Information Technology & Services",
+    "city": "Frankfurt",
+    "number-of-employees": "79",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/solvians-it-solutions-gmbh/jobs"
+  },
+  {
+    "name": "Babbel",
+    "year-of-make": "2007",
+    "industry": "E-Learning Providers",
+    "city": "Berlin",
+    "number-of-employees": "1300",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/babbel-com/jobs"
+  },
+  {
+    "name": "Adjust",
+    "year-of-make": "2012",
+    "industry": "Advertising Services",
+    "city": "Berlin",
+    "number-of-employees": "1000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/adjustcom/jobs"
+  },
+  {
+    "name": "Gameforge",
+    "year-of-make": "2003",
+    "industry": "Computer Games",
+    "city": "Karlsruhe",
+    "number-of-employees": "400",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/gameforge/jobs"
+  },
+  {
+    "name": "The unbelievable Machine Company GmbH",
+    "year-of-make": "2008",
+    "industry": "IT Services and IT Consulting",
+    "city": "Berlin",
+    "number-of-employees": "50",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/the-unbelievable-machine-company-gmbh/jobs"
+  },
+  {
+    "name": "Scout24 Group",
+    "year-of-make": "2012",
+    "industry": "Technology, Information and Internet",
+    "city": "Munich",
+    "number-of-employees": "1000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/scout24-group/jobs"
+  },
+  {
+    "name": "Mercedes-Benz Leasing Deutschland",
+    "year-of-make": "2020",
+    "industry": "Financial Services",
+    "city": "Stuttgart",
+    "number-of-employees": "300",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/mercedes-benz-leasing-deutschland/jobs"
+  },
+  {
+    "name": "JITpay™ Group",
+    "year-of-make": "2016",
+    "industry": "Financial Services",
+    "city": "Braunschweig",
+    "number-of-employees": "80",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/jitpay-gmbh/jobs"
   }
 ]
