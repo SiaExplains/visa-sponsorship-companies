@@ -7,5 +7,14 @@
     "number-of-employees": "700",
     "country": "Spain",
     "linkedin": "https://www.linkedin.com/company/metro-markets-gmbh/jobs"
+  },
+  {
+    "name": "Amadeus",
+    "year-of-make": "2000",
+    "industry": "IT Services and IT Consulting",
+    "city": "Madrid",
+    "number-of-employees": "16000",
+    "country": "Spain",
+    "linkedin": "https://www.linkedin.com/company/amadeus/jobs"
   }
 ]
