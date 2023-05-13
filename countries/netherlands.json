@@ -286,5 +286,13 @@
     "number-of-employees": "7000",
     "country": "Netherlands",
     "linkedin": "https://www.linkedin.com/company/mediamonks/jobs"
+  },
+    "name": "team.blue",
+    "year-of-make": "2019",
+    "industry": "Technology, Information and Internet",
+    "city": "Ghent, Flemish Region",
+    "number-of-employees": "5000",
+    "country": "Netherlands",
+    "linkedin": "https://www.linkedin.com/company/teamblue/jobs/"
   }
 ]
