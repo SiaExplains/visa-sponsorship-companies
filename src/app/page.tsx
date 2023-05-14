@@ -549,7 +549,7 @@ export default function Home() {
                       target="_blank"
                     >
                       <Image
-                        src="/linkedin.png"
+                        src="./linkedin.png"
                         width={16}
                         height={16}
                         alt={`LinkedIn job page for ${company.name} company.`}
