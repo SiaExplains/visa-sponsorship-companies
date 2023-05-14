@@ -294,5 +294,13 @@
     "number-of-employees": "5000",
     "country": "Netherlands",
     "linkedin": "https://www.linkedin.com/company/teamblue/jobs/"
+  },
+    "name": "coolBlue",
+    "year-of-make": "1999",
+    "industry": "Computers and Electronics Manufacturing",
+    "city": "Rotterdam, Zuid-Holland",
+    "number-of-employees": "5000",
+    "country": "Netherlands",
+    "linkedin": "https://www.linkedin.com/company/coolblue/jobs/"
   }
 ]
