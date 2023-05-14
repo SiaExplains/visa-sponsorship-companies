@@ -1,0 +1,126 @@
+/*
+tailwind has been added by defualt from latest version of nextjs but we might use it but not now.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.container {
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+}
+
+.filter-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 50px 10px 50px;
+  background-color: rgb(53, 114, 157);
+  color: white;
+  justify-content: space-around;
+}
+
+.filter-bar .filter-item {
+  margin-left: 5px;
+  display: flex;
+}
+
+.filter-bar .filter-item label {
+  display: inline-block;
+  text-align: right;
+  margin-right: 4px;
+}
+
+table {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+tr {
+  background-color: beige;
+  cursor: default;
+}
+td {
+  word-break: break-word;
+  vertical-align: middle;
+}
+
+th {
+  color: rgb(45, 45, 45);
+  background-color: rgb(176, 194, 207);
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(255, 235, 181);
+}
+
+tr:hover,
+tr:nth-child(2n):hover {
+  background-color: white;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+input,
+select {
+  border-radius: 5px;
+  border: none;
+  padding: 0 5px 0 5px;
+  color: rgb(37, 37, 37);
+}
+
+.no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 100px;
+  margin: 25px auto 25px auto;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .filter-bar {
+    flex-direction: column;
+    padding: 10px 5px 10px 0;
+  }
+
+  .filter-bar .filter-item {
+    margin-top: 5px;
+  }
+  .filter-bar .filter-item label {
+    min-width: 100px;
+    text-align: right;
+  }
+  .filter-bar .filter-item .control {
+    width: 100%;
+  }
+  .hidden-on-mobile {
+    display: none;
+  }
+  .no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 100px;
+    margin: 8px auto 8px auto;
+    padding: 8px;
+  }
+}
