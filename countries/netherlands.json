@@ -287,20 +287,22 @@
     "country": "Netherlands",
     "linkedin": "https://www.linkedin.com/company/mediamonks/jobs"
   },
+  {
     "name": "team.blue",
     "year-of-make": "2019",
     "industry": "Technology, Information and Internet",
     "city": "Ghent, Flemish Region",
     "number-of-employees": "5000",
     "country": "Netherlands",
-    "linkedin": "https://www.linkedin.com/company/teamblue/jobs/"
+    "linkedin": "https://www.linkedin.com/company/teamblue/jobs"
   },
+  {
     "name": "coolBlue",
     "year-of-make": "1999",
     "industry": "Computers and Electronics Manufacturing",
     "city": "Rotterdam, Zuid-Holland",
     "number-of-employees": "5000",
     "country": "Netherlands",
-    "linkedin": "https://www.linkedin.com/company/coolblue/jobs/"
+    "linkedin": "https://www.linkedin.com/company/coolblue/jobs"
   }
 ]
