@@ -18,7 +18,7 @@ export default function Home() {
   useEffect(() => {
     const newItems = allFetchedCompanies.filter(
       (item) =>
-        item.name.includes(name) &&
+        item.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()) &&
         item.country.includes(country === "--All--" ? "" : country) &&
         Number(item.numberOfEmployees) >= Number(size === "--All--" ? 0 : size)
     );
