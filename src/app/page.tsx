@@ -29,7 +29,7 @@ export default function Home() {
     <main className="container">
       <FilterBar>
         <FilterItem>
-          <label>Copmany: </label>
+          <label>Company: </label>
           <input
             className="control"
             placeholder="Google, FlixBus, ..."
