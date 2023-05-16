@@ -21,11 +21,7 @@ export default function Home() {
         item.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()) &&
         item.country
           .toLocaleUpperCase()
-          .includes(
-            country.toLocaleLowerCase() === "--All--"
-              ? ""
-              : country.toLocaleUpperCase()
-          ) &&
+          .includes(country === "--All--" ? "" : country.toLocaleUpperCase()) &&
         Number(item.numberOfEmployees) >= Number(size === "--All--" ? 0 : size)
     );
     setCompanies(newItems);
