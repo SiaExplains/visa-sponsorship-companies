@@ -19,7 +19,13 @@ export default function Home() {
     const newItems = allFetchedCompanies.filter(
       (item) =>
         item.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()) &&
-        item.country.includes(country === "--All--" ? "" : country) &&
+        item.country
+          .toLocaleUpperCase()
+          .includes(
+            country.toLocaleLowerCase() === "--All--"
+              ? ""
+              : country.toLocaleUpperCase()
+          ) &&
         Number(item.numberOfEmployees) >= Number(size === "--All--" ? 0 : size)
     );
     setCompanies(newItems);
@@ -46,6 +52,7 @@ export default function Home() {
           >
             <option>--All--</option>
             <option>Austria</option>
+            <option>Belgium</option>
             <option>England</option>
             <option>Finland</option>
             <option>France</option>
