@@ -1,4 +1,5 @@
 const austria = require("./austria.json");
+const belgium = require("./belgium.json");
 const england = require("./england.json");
 const finland = require("./finland.json");
 const france = require("./france.json");
@@ -15,6 +16,7 @@ const ALL_COUNTRIES = () => {
   const allCountries = [];
   allCountries.push(
     ...austria,
+    ...belgium,
     ...england,
     ...finland,
     ...france,
