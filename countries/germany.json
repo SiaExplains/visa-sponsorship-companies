@@ -2396,5 +2396,14 @@
     "number-of-employees": "80",
     "country": "Germany",
     "linkedin": "https://www.linkedin.com/company/jitpay-gmbh/jobs"
+  },
+  {
+    "name": "Pixida",
+    "year-of-make": "2008",
+    "industry": "Information Technology & Services",
+    "city": "Munich",
+    "number-of-employees": "200",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/pixida-gmbh/jobs/"
   }
 ]
