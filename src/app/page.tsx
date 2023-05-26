@@ -5,6 +5,7 @@ import FilterItem from "./components/filter-item";
 import FilterBar from "./components/filter-bar";
 import { Company } from "./types/company.model";
 import { getAggregatedCompaniesFromJsonFiles } from "./helper/companyHelper";
+import { sortBy } from "lodash";
 
 const allFetchedCompanies = getAggregatedCompaniesFromJsonFiles();
 
@@ -26,6 +27,26 @@ export default function Home() {
     );
     setCompanies(newItems);
   }, [name, country, size]);
+
+  const sort = (header: string): void => {
+    switch (header) {
+      case 'Name':
+        setCompanies(sortBy(companies, ['name', 'numberOfEmployees', 'yearOfMake']));
+        break;
+      case 'Country':
+        setCompanies(sortBy(companies, ['country', 'name', 'numberOfEmployees', 'yearOfMake']));
+        break;
+      case 'City':
+        setCompanies(sortBy(companies, ['city', 'name', 'numberOfEmployees', 'yearOfMake']));
+        break;
+      case 'Size':
+        setCompanies(sortBy(companies, ['numberOfEmployees', 'name', 'numberOfEmployees', 'yearOfMake']));
+        break;
+      case 'Industry':
+        setCompanies(sortBy(companies, ['industry', 'name', 'numberOfEmployees', 'yearOfMake']));
+        break;
+    }
+  };
 
   return (
     <main className="container">
@@ -90,11 +111,11 @@ export default function Home() {
         <table>
           <tbody>
             <tr>
-              <th>Name</th>
-              <th>Country</th>
-              <th>City</th>
-              <th className="hidden-on-mobile">Size</th>
-              <th className="hidden-on-mobile">Industry</th>
+              <th onClick={e => sort('Name')}>Name</th>
+              <th onClick={e => sort('Country')}>Country</th>
+              <th onClick={e => sort('City')}>City</th>
+              <th onClick={e => sort('Size')} className="hidden-on-mobile">Size</th>
+              <th onClick={e => sort('Industry')} className="hidden-on-mobile">Industry</th>
               <th>Jobs</th>
             </tr>
             {companies.map((company: Company) => {
