@@ -55,6 +55,9 @@ th {
   background-color: rgb(176, 194, 207);
   cursor: pointer;
 }
+th:last-child {
+  cursor: default;
+}
 
 tr:nth-child(2n) {
   background-color: rgb(255, 235, 181);
