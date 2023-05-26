@@ -31,19 +31,22 @@ export default function Home() {
   const sort = (header: string): void => {
     switch (header) {
       case 'Name':
-        setCompanies(sortBy(companies, ['name', 'numberOfEmployees', 'yearOfMake']));
+        setCompanies(sortBy(companies, ['name']));
         break;
       case 'Country':
-        setCompanies(sortBy(companies, ['country', 'name', 'numberOfEmployees', 'yearOfMake']));
+        setCompanies(sortBy(companies, ['country']));
         break;
       case 'City':
-        setCompanies(sortBy(companies, ['city', 'name', 'numberOfEmployees', 'yearOfMake']));
+        setCompanies(sortBy(companies, ['city']));
         break;
       case 'Size':
-        setCompanies(sortBy(companies, ['numberOfEmployees', 'name', 'numberOfEmployees', 'yearOfMake']));
+        const sorted = [...companies].sort((companyA: Company, companyB: Company) => 
+          parseInt(companyA.numberOfEmployees, 10) - parseInt(companyB.numberOfEmployees, 10)
+        );
+        setCompanies(sorted);
         break;
       case 'Industry':
-        setCompanies(sortBy(companies, ['industry', 'name', 'numberOfEmployees', 'yearOfMake']));
+        setCompanies(sortBy(companies, ['industry']));
         break;
     }
   };
