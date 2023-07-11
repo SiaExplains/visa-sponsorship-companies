@@ -5,6 +5,8 @@ import FilterItem from "./components/filter-item";
 import FilterBar from "./components/filter-bar";
 import { Company } from "./types/company.model";
 import { getAggregatedCompaniesFromJsonFiles } from "./helper/companyHelper";
+import SortableHeader, { SortType } from "./components/sortable-header";
+import { ASCENDING } from "./constants/constants";
 
 const allFetchedCompanies = getAggregatedCompaniesFromJsonFiles();
 
@@ -14,6 +16,7 @@ export default function Home() {
   const [country, setCountry] = useState<string>("");
   const [size, setSize] = useState<string>("");
   const hasAnyMatchedItem = companies && companies.length > 0;
+  const [sortByColumn, setSortByColumn] = useState<keyof Company>("name");
 
   useEffect(() => {
     const newItems = allFetchedCompanies.filter(
@@ -26,6 +29,19 @@ export default function Home() {
     );
     setCompanies(newItems);
   }, [name, country, size]);
+
+  const handleSortByColumn = (
+    columnName: keyof Company,
+    sortType: SortType
+  ) => {
+    setSortByColumn(columnName);
+    const sortedCompany = companies.sort((firstCompany, secondCompany) =>
+      sortType === ASCENDING
+        ? firstCompany[columnName].localeCompare(secondCompany[columnName])
+        : secondCompany[columnName].localeCompare(firstCompany[columnName])
+    );
+    setCompanies([...sortedCompany]);
+  };
 
   return (
     <main className="container">
@@ -90,11 +106,28 @@ export default function Home() {
         <table>
           <tbody>
             <tr>
-              <th>Name</th>
-              <th>Country</th>
-              <th>City</th>
+              <SortableHeader
+                title="name"
+                isActive={sortByColumn === "name"}
+                onSortTypeChange={handleSortByColumn}
+              />
+              <SortableHeader
+                title="country"
+                isActive={sortByColumn === "country"}
+                onSortTypeChange={handleSortByColumn}
+              />
+              <SortableHeader
+                title="city"
+                isActive={sortByColumn === "city"}
+                onSortTypeChange={handleSortByColumn}
+              />
               <th className="hidden-on-mobile">Size</th>
-              <th className="hidden-on-mobile">Industry</th>
+
+              <SortableHeader
+                title="industry"
+                isActive={sortByColumn === "industry"}
+                onSortTypeChange={handleSortByColumn}
+              />
               <th>Jobs</th>
             </tr>
             {companies.map((company: Company) => {
