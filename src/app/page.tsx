@@ -106,6 +106,7 @@ export default function Home() {
         <table>
           <tbody>
             <tr>
+              <th>Jobs</th>
               <SortableHeader
                 title="name"
                 isActive={sortByColumn === "name"}
@@ -128,7 +129,6 @@ export default function Home() {
                 isActive={sortByColumn === "industry"}
                 onSortTypeChange={handleSortByColumn}
               />
-              <th>Jobs</th>
             </tr>
             {companies.map((company: Company) => {
               return (
@@ -136,27 +136,34 @@ export default function Home() {
                   key={company.name}
                   className="odd:bg-white even:bg-slate-50"
                 >
-                  <td>{company.name}</td>
+                  <td>
+                    <a
+                        href={company.linkedin}
+                        className="text-center"
+                        target="_blank"
+                    >
+                      <Image
+                          src="./linkedin.png"
+                          width={16}
+                          height={16}
+                          alt={`LinkedIn job page for ${company.name} company.`}
+                      />
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href={company.linkedin}
+                      target="_blank"
+                    >
+                      {company.name}
+                    </a>
+                  </td>
                   <td>{company.country}</td>
                   <td>{company.city}</td>
                   <td className="hidden-on-mobile">
                     {company.numberOfEmployees}
                   </td>
                   <td className="hidden-on-mobile">{company.industry}</td>
-                  <td>
-                    <a
-                      href={company.linkedin}
-                      className="text-center"
-                      target="_blank"
-                    >
-                      <Image
-                        src="./linkedin.png"
-                        width={16}
-                        height={16}
-                        alt={`LinkedIn job page for ${company.name} company.`}
-                      />
-                    </a>
-                  </td>
                 </tr>
               );
             })}
