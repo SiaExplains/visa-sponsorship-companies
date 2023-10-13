@@ -11,6 +11,7 @@ const newZealand = require("./new-zealand.json");
 const norway = require("./norway.json");
 const spain = require("./spain.json");
 const sweden = require("./sweden.json");
+const trukey = require("./turkey.json");
 
 const ALL_COUNTRIES = () => {
   const allCountries = [];
@@ -27,7 +28,8 @@ const ALL_COUNTRIES = () => {
     ...newZealand,
     ...norway,
     ...spain,
-    ...sweden
+    ...sweden,
+    ...trukey
   );
 
   return allCountries;

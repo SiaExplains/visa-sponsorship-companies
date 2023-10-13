@@ -76,6 +76,7 @@ export default function Home() {
             <option>Norway</option>
             <option>Spain</option>
             <option>Sweden</option>
+            <option>Turkey</option>
           </select>
         </FilterItem>
         <FilterItem>
