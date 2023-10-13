@@ -1,5 +1,5 @@
 /*
-tailwind has been added by defualt from latest version of nextjs but we might use it but not now.
+tailwind has been added by default from latest version of nextjs but we might use it but not now.
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -81,6 +81,16 @@ select {
   border: none;
   padding: 0 5px 0 5px;
   color: rgb(37, 37, 37);
+}
+
+.icon {
+  vertical-align: top;
+  margin: 0.25rem;
+}
+
+.link {
+  display: inline-block;
+  width: 100%;
 }
 
 .no-data {

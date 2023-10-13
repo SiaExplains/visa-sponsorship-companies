@@ -106,7 +106,6 @@ export default function Home() {
         <table>
           <tbody>
             <tr>
-              <th>Jobs</th>
               <SortableHeader
                 title="name"
                 isActive={sortByColumn === "name"}
@@ -138,24 +137,18 @@ export default function Home() {
                 >
                   <td>
                     <a
-                        href={company.linkedin}
-                        className="text-center"
-                        target="_blank"
+                      href={company.linkedin}
+                      target="_blank"
+                      className={"link"}
                     >
                       <Image
                           src="./linkedin.png"
                           width={16}
                           height={16}
                           alt={`LinkedIn job page for ${company.name} company.`}
+                          className={"icon"}
                       />
-                    </a>
-                  </td>
-                  <td>
-                    <a
-                      href={company.linkedin}
-                      target="_blank"
-                    >
-                      {company.name}
+                      <span className="align-middle">{company.name}</span>
                     </a>
                   </td>
                   <td>{company.country}</td>
