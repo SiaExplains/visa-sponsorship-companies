@@ -2405,5 +2405,14 @@
     "number-of-employees": "200",
     "country": "Germany",
     "linkedin": "https://www.linkedin.com/company/pixida-gmbh/jobs/"
+  },
+  {
+    "name": "Enmacc",
+    "year-of-make": "2016",
+    "industry": "Software Development",
+    "city": "Munich",
+    "number-of-employees": "200",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/enmacc/jobs/"
   }
 ]
