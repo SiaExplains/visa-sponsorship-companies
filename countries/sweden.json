@@ -115,5 +115,14 @@
     "number-of-employees": "600",
     "country": "Sweden",
     "linkedin": "https://www.linkedin.com/company/truecaller/jobs"
+  },
+  {
+    "name": "Explipro",
+    "year-of-make": "2012",
+    "industry": "Consulting company",
+    "city": "Gothenburg",
+    "number-of-employees": "50",
+    "country": "Sweden",
+    "linkedin": "https://www.linkedin.com/company/explipro-group-ab/jobs"
   }
 ]
