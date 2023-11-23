@@ -7,5 +7,14 @@
     "number-of-employees": "16000",
     "country": "Spain",
     "linkedin": "https://www.linkedin.com/company/amadeus/jobs"
-  }
+  },
+  {
+    "name": "eDreams ODIGEO",
+    "year-of-make": "2000",
+    "industry": "Travel and E-commerce",
+    "city": "Barcelona",
+    "number-of-employees": "5000",
+    "country": "Spain",
+    "linkedin": "https://www.linkedin.com/company/edreamsodigeo/about/"
+  }  
 ]
