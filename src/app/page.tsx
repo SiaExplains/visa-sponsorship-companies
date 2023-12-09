@@ -129,7 +129,6 @@ export default function Home() {
                 isActive={sortByColumn === "industry"}
                 onSortTypeChange={handleSortByColumn}
               />
-              <th>Jobs</th>
             </tr>
             {companies.map((company: Company) => {
               return (
@@ -137,27 +136,28 @@ export default function Home() {
                   key={company.name}
                   className="odd:bg-white even:bg-slate-50"
                 >
-                  <td>{company.name}</td>
+                  <td>
+                    <a
+                      href={company.linkedin}
+                      target="_blank"
+                      className={"link"}
+                    >
+                      <Image
+                          src="./linkedin.png"
+                          width={16}
+                          height={16}
+                          alt={`LinkedIn job page for ${company.name} company.`}
+                          className={"icon"}
+                      />
+                      <span className="align-middle">{company.name}</span>
+                    </a>
+                  </td>
                   <td>{company.country}</td>
                   <td>{company.city}</td>
                   <td className="hidden-on-mobile">
                     {company.numberOfEmployees}
                   </td>
                   <td className="hidden-on-mobile">{company.industry}</td>
-                  <td>
-                    <a
-                      href={company.linkedin}
-                      className="text-center"
-                      target="_blank"
-                    >
-                      <Image
-                        src="./linkedin.png"
-                        width={16}
-                        height={16}
-                        alt={`LinkedIn job page for ${company.name} company.`}
-                      />
-                    </a>
-                  </td>
                 </tr>
               );
             })}
