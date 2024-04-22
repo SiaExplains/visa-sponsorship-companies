@@ -1,5 +1,14 @@
 [
   {
+    "name": "Celonis",
+    "year-of-make": "2011",
+    "industry": "Consulting",
+    "city": "Munich",
+    "number-of-employees": "3000",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/celonis/jobs/"
+  },
+  {
     "name": "Siemens AG",
     "year-of-make": "1847",
     "industry": "Conglomerate",
