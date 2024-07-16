@@ -1,5 +1,14 @@
 [
   {
+    "name": "GameCare",
+    "year-of-make": "1997",
+    "industry": "Non-profit Organizations",
+    "city": "London",
+    "number-of-employees": "500",
+    "country": "England",
+    "linkedin": "https://www.linkedin.com/company/gamcare/jobs"
+  },
+  {
     "name": "Vodafone",
     "year-of-make": "1982",
     "industry": "Telecommunications",
