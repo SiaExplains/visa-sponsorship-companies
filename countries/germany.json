@@ -2423,5 +2423,14 @@
     "number-of-employees": "200",
     "country": "Germany",
     "linkedin": "https://www.linkedin.com/company/enmacc/jobs/"
-  }
+  },
+  {
+    "name": "Eurowings Digital",
+    "year-of-make": "2018",
+    "industry": "Airline and Travel",
+    "city": "Cologne",
+    "number-of-employees": "300",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/eurowings-digital-gmbh/jobs/"
+  },
 ]
