@@ -2423,5 +2423,14 @@
     "number-of-employees": "200",
     "country": "Germany",
     "linkedin": "https://www.linkedin.com/company/enmacc/jobs/"
-  }
+  },
+   {
+    "name": "The Exploration Company",
+    "year-of-make": "2021",
+    "industry": "Aviation and Aerospace Component Manufacturing",
+    "city": "Planegg",
+    "number-of-employees": "200",
+    "country": "Germany",
+    "linkedin": "https://www.linkedin.com/company/exploration-company/jobs/"
+  } 
 ]
