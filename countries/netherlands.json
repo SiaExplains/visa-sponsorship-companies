@@ -304,5 +304,14 @@
     "number-of-employees": "5000",
     "country": "Netherlands",
     "linkedin": "https://www.linkedin.com/company/coolblue/jobs"
+  },
+    {
+    "name": "bitvavo",
+    "year-of-make": "2018",
+    "industry": "Financial Services",
+    "city": "Amsterdam",
+    "number-of-employees": "500",
+    "country": "Netherlands",
+    "linkedin": "https://www.linkedin.com/company/bitvavocom/jobs"
   }
 ]
