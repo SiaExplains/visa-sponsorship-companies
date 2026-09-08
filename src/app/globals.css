@@ -1,126 +1,497 @@
 /*
-tailwind has been added by defualt from latest version of nextjs but we might use it but not now.
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+  Company Finder
+  Global styles
 */
+
+:root {
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-soft: #eff6ff;
+
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  --color-text: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-text-muted: #94a3b8;
+
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+/* =========================
+   Reset
+========================= */
+
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
   margin: 0;
   padding: 0;
-  font-size: 14px;
-}
-.container {
-  background-color: rgb(238, 238, 238);
-  height: 100vh;
+  min-height: 100%;
 }
 
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+
+  font-size: 14px;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+}
+
+/* =========================
+   Main Layout
+========================= */
+
+.container {
+  min-height: 100vh;
+
+  padding: 40px 32px 24px;
+
+  background: var(--color-background);
+}
+
+/* =========================
+   Filter Bar
+========================= */
+
 .filter-bar {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto 24px;
+
   display: flex;
-  flex-direction: row;
-  padding: 5px 50px 10px 50px;
-  background-color: rgb(53, 114, 157);
-  color: white;
-  justify-content: space-around;
+  align-items: flex-end;
+
+  gap: 20px;
+
+  padding: 22px 24px;
+
+  background: var(--color-surface);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-sm);
 }
 
 .filter-bar .filter-item {
-  margin-left: 5px;
   display: flex;
+  flex-direction: column;
+
+  gap: 7px;
+
+  flex: 1;
+  min-width: 180px;
 }
 
 .filter-bar .filter-item label {
-  display: inline-block;
-  text-align: right;
-  margin-right: 4px;
+  display: block;
+
+  color: var(--color-text);
+
+  font-size: 13px;
+  font-weight: 600;
+
+  letter-spacing: 0.01em;
 }
+
+/* =========================
+   Inputs / Selects
+========================= */
+
+input,
+select {
+  width: 100%;
+  height: 42px;
+
+  padding: 0 12px;
+
+  color: var(--color-text);
+  background: var(--color-surface);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  outline: none;
+
+  font-family: inherit;
+  font-size: 14px;
+
+  transition:
+    border-color 150ms ease,
+    box-shadow 150ms ease,
+    background-color 150ms ease;
+}
+
+input::placeholder {
+  color: var(--color-text-muted);
+}
+
+input:hover,
+select:hover {
+  border-color: #cbd5e1;
+}
+
+input:focus,
+select:focus {
+  border-color: var(--color-primary);
+
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+select {
+  cursor: pointer;
+}
+
+/* =========================
+   Table
+========================= */
 
 table {
-  background-color: rgb(255, 255, 255);
   width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  border-collapse: separate;
+  border-spacing: 0;
+
+  overflow: hidden;
+
+  background: var(--color-surface);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-md);
 }
 
-tr {
-  background-color: beige;
-  cursor: default;
+/* Table Header */
+
+th {
+  height: 52px;
+
+  padding: 0 18px;
+
+  color: var(--color-text-secondary);
+  background: #f8fafc;
+
+  border-bottom: 1px solid var(--color-border);
+
+  font-size: 12px;
+  font-weight: 700;
+
+  text-align: left;
+  text-transform: uppercase;
+
+  letter-spacing: 0.04em;
+
+  white-space: nowrap;
+
+  cursor: pointer;
+
+  transition:
+    color 150ms ease,
+    background-color 150ms ease;
 }
+
+th:hover {
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+/* Table Cells */
+
 td {
+  height: 58px;
+
+  padding: 12px 18px;
+
+  color: var(--color-text);
+
+  border-bottom: 1px solid var(--color-border-light);
+
+  font-size: 14px;
+
   word-break: break-word;
   vertical-align: middle;
 }
 
-th {
-  color: rgb(45, 45, 45);
-  background-color: rgb(176, 194, 207);
+/* Table Rows */
+
+tr {
+  background: var(--color-surface);
+
+  transition: background-color 150ms ease;
 }
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover {
+  background: #f8fafc;
+}
+
+/* Override old alternating row colors */
 
 tr:nth-child(2n) {
-  background-color: rgb(255, 235, 181);
+  background: var(--color-surface);
 }
 
-tr:hover,
 tr:nth-child(2n):hover {
-  background-color: white;
+  background: #f8fafc;
 }
+
+/* =========================
+   LinkedIn / Jobs
+========================= */
 
 .text-center {
   display: flex;
+
+  align-items: center;
   justify-content: center;
+
+  width: 32px;
+  height: 32px;
+
+  margin: 0 auto;
+
+  border-radius: var(--radius-sm);
+
+  transition:
+    background-color 150ms ease,
+    transform 150ms ease;
 }
 
-footer {
-  margin: 5px;
-  text-align: center;
-  font-size: 12px;
+.text-center:hover {
+  background: #eef2ff;
+
+  transform: translateY(-1px);
 }
 
-input,
-select {
-  border-radius: 5px;
-  border: none;
-  padding: 0 5px 0 5px;
-  color: rgb(37, 37, 37);
+.text-center img {
+  display: block;
 }
+
+/* =========================
+   No Data
+========================= */
 
 .no-data {
+  width: min(600px, 100%);
+
+  min-height: 120px;
+
+  margin: 50px auto;
+
   display: flex;
-  justify-content: center;
+
   align-items: center;
-  width: 600px;
-  height: 100px;
-  margin: 25px auto 25px auto;
-  background-color: white;
-  border: none;
-  border-radius: 10px;
+  justify-content: center;
+
+  padding: 24px;
+
+  color: var(--color-text-secondary);
+
+  background: var(--color-surface);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-sm);
+
+  font-size: 14px;
+
+  text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+/* =========================
+   Footer
+========================= */
+
+footer {
+  max-width: 1400px;
+
+  margin: 28px auto 0;
+
+  padding: 20px 0;
+
+  color: var(--color-text-muted);
+
+  border-top: 1px solid var(--color-border);
+
+  font-size: 12px;
+
+  line-height: 1.6;
+
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-primary);
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: color 150ms ease;
+}
+
+footer a:hover {
+  color: var(--color-primary-hover);
+
+  text-decoration: underline;
+}
+
+
+
+/* =========================
+   Page Header
+========================= */
+
+.page-header {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto 24px;
+
+  padding: 0 4px;
+}
+
+.page-header h1 {
+  margin: 0 0 8px;
+
+  color: var(--color-text);
+
+  font-size: clamp(26px, 4vw, 36px);
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  letter-spacing: -0.025em;
+}
+
+.page-header p {
+  max-width: 650px;
+
+  margin: 0;
+
+  color: var(--color-text-secondary);
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+/* =========================
+   Tablet / Mobile
+========================= */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 16px;
+  }
+
   .filter-bar {
     flex-direction: column;
-    padding: 10px 5px 10px 0;
+
+    align-items: stretch;
+
+    gap: 16px;
+
+    padding: 18px;
   }
 
   .filter-bar .filter-item {
-    margin-top: 5px;
-  }
-  .filter-bar .filter-item label {
-    min-width: 100px;
-    text-align: right;
-  }
-  .filter-bar .filter-item .control {
     width: 100%;
+
+    min-width: 0;
   }
+
+  table {
+    font-size: 13px;
+  }
+
+  th,
+  td {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+/* =========================
+   Small Mobile
+========================= */
+
+@media (max-width: 500px) {
+  .container {
+    padding: 12px 8px 20px;
+  }
+
+  .filter-bar {
+    margin-bottom: 16px;
+
+    padding: 16px;
+
+    border-radius: var(--radius-md);
+  }
+
+  input,
+  select {
+    height: 44px;
+  }
+
+  th {
+    height: 48px;
+
+    font-size: 11px;
+  }
+
+  td {
+    height: 54px;
+
+    padding: 10px 8px;
+
+    font-size: 13px;
+  }
+
   .hidden-on-mobile {
     display: none;
   }
+
   .no-data {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
-    height: 100px;
-    margin: 8px auto 8px auto;
-    padding: 8px;
+    width: 100%;
+
+    min-height: 110px;
+
+    margin: 30px auto;
+
+    padding: 20px 16px;
+  }
+
+  footer {
+    margin-top: 20px;
+
+    padding: 16px 8px;
   }
 }

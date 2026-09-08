@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 type FilterItemProps = {
   children: ReactNode;
 };
+
 const FilterItem = ({ children }: FilterItemProps) => {
   return <div className="filter-item">{children}</div>;
 };

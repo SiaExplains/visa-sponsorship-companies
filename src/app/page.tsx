@@ -1,32 +1,49 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import Image from "next/image";
+
 import FilterItem from "./components/filter-item";
 import FilterBar from "./components/filter-bar";
+import SortableHeader, { SortType } from "./components/sortable-header";
+
 import { Company } from "./types/company.model";
 import { getAggregatedCompaniesFromJsonFiles } from "./helper/companyHelper";
-import SortableHeader, { SortType } from "./components/sortable-header";
 import { ASCENDING } from "./constants/constants";
 
 const allFetchedCompanies = getAggregatedCompaniesFromJsonFiles();
 
 export default function Home() {
-  const [companies, setCompanies] = useState<Company[]>(allFetchedCompanies);
+  const [companies, setCompanies] = useState<Company[]>(
+    allFetchedCompanies
+  );
+
   const [name, setName] = useState<string>("");
   const [country, setCountry] = useState<string>("");
   const [size, setSize] = useState<string>("");
+
+  const [sortByColumn, setSortByColumn] =
+    useState<keyof Company>("name");
+
   const hasAnyMatchedItem = companies && companies.length > 0;
-  const [sortByColumn, setSortByColumn] = useState<keyof Company>("name");
 
   useEffect(() => {
     const newItems = allFetchedCompanies.filter(
       (item) =>
-        item.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()) &&
+        item.name
+          .toLocaleLowerCase()
+          .includes(name.toLocaleLowerCase()) &&
         item.country
           .toLocaleUpperCase()
-          .includes(country === "--All--" ? "" : country.toLocaleUpperCase()) &&
-        Number(item.numberOfEmployees) >= Number(size === "--All--" ? 0 : size)
+          .includes(
+            country === "--All--"
+              ? ""
+              : country.toLocaleUpperCase()
+          ) &&
+        Number(item.numberOfEmployees) >=
+          Number(size === "--All--" ? 0 : size)
     );
+
     setCompanies(newItems);
   }, [name, country, size]);
 
@@ -35,29 +52,49 @@ export default function Home() {
     sortType: SortType
   ) => {
     setSortByColumn(columnName);
-    const sortedCompany = companies.sort((firstCompany, secondCompany) =>
-      sortType === ASCENDING
-        ? firstCompany[columnName].localeCompare(secondCompany[columnName])
-        : secondCompany[columnName].localeCompare(firstCompany[columnName])
+
+    const sortedCompany = [...companies].sort(
+      (firstCompany, secondCompany) =>
+        sortType === ASCENDING
+          ? firstCompany[columnName].localeCompare(
+              secondCompany[columnName]
+            )
+          : secondCompany[columnName].localeCompare(
+              firstCompany[columnName]
+            )
     );
-    setCompanies([...sortedCompany]);
+
+    setCompanies(sortedCompany);
   };
 
   return (
     <main className="container">
+       <header className="page-header">
+      <h1>Find Companies That Sponsor Visas</h1>
+
+      <p>
+        Explore companies that offer visa sponsorship and filter
+        them by country, size, and industry.
+      </p>
+    </header>
       <FilterBar>
         <FilterItem>
-          <label>Company: </label>
+          <label htmlFor="company-search">Company</label>
+
           <input
+            id="company-search"
             className="control"
             placeholder="Google, FlixBus, ..."
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
         </FilterItem>
+
         <FilterItem>
-          <label>Country: </label>
+          <label htmlFor="country-filter">Country</label>
+
           <select
+            id="country-filter"
             className="control"
             value={country}
             onChange={(e) => setCountry(e.target.value)}
@@ -79,9 +116,12 @@ export default function Home() {
             <option>Turkey</option>
           </select>
         </FilterItem>
+
         <FilterItem>
-          <label>Size: </label>
+          <label htmlFor="size-filter">Company Size</label>
+
           <select
+            id="size-filter"
             className="control"
             value={size}
             onChange={(e) => setSize(e.target.value)}
@@ -103,6 +143,7 @@ export default function Home() {
           </select>
         </FilterItem>
       </FilterBar>
+
       {hasAnyMatchedItem && (
         <table>
           <tbody>
@@ -112,49 +153,62 @@ export default function Home() {
                 isActive={sortByColumn === "name"}
                 onSortTypeChange={handleSortByColumn}
               />
+
               <SortableHeader
                 title="country"
                 isActive={sortByColumn === "country"}
                 onSortTypeChange={handleSortByColumn}
               />
+
               <SortableHeader
                 title="city"
                 isActive={sortByColumn === "city"}
                 onSortTypeChange={handleSortByColumn}
               />
-              <th className="hidden-on-mobile">Size</th>
+
+              <th className="hidden-on-mobile">
+                Size
+              </th>
 
               <SortableHeader
                 title="industry"
                 isActive={sortByColumn === "industry"}
                 onSortTypeChange={handleSortByColumn}
               />
+
               <th>Jobs</th>
             </tr>
+
             {companies.map((company: Company) => {
               return (
-                <tr
-                  key={company.name}
-                  className="odd:bg-white even:bg-slate-50"
-                >
+                <tr key={company.name}>
                   <td>{company.name}</td>
+
                   <td>{company.country}</td>
+
                   <td>{company.city}</td>
+
                   <td className="hidden-on-mobile">
                     {company.numberOfEmployees}
                   </td>
-                  <td className="hidden-on-mobile">{company.industry}</td>
+
+                  <td className="hidden-on-mobile">
+                    {company.industry}
+                  </td>
+
                   <td>
                     <a
                       href={company.linkedin}
                       className="text-center"
                       target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`View LinkedIn jobs for ${company.name}`}
                     >
                       <Image
                         src="./linkedin.png"
                         width={16}
                         height={16}
-                        alt={`LinkedIn job page for ${company.name} company.`}
+                        alt={`LinkedIn job page for ${company.name} company`}
                       />
                     </a>
                   </td>
@@ -164,18 +218,22 @@ export default function Home() {
           </tbody>
         </table>
       )}
+
       {!hasAnyMatchedItem && (
         <p className="no-data">
-          There is no company in our current database at the moment based on
-          your filter.
+          There is no company in our current database at the
+          moment based on your filter.
         </p>
       )}
+
       <footer>
-        You can help us to improve our list by contribute to this
+        You can help us improve our list by contributing to this
         repository:&nbsp;
+
         <a
           href="https://github.com/SiaExplains/visa-sponsorship-companies"
           target="_blank"
+          rel="noopener noreferrer"
         >
           visa-sponsorship-companies
         </a>
