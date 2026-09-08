@@ -1,0 +1,703 @@
+[1mdiff --git a/src/app/components/filter-bar.tsx b/src/app/components/filter-bar.tsx[m
+[1mindex 119bb02..8d02feb 100644[m
+[1m--- a/src/app/components/filter-bar.tsx[m
+[1m+++ b/src/app/components/filter-bar.tsx[m
+[36m@@ -3,10 +3,11 @@[m [mimport { ReactNode } from "react";[m
+ type FilterBarProps = {[m
+   children: ReactNode;[m
+ };[m
+[32m+[m
+ const FilterBar = ({ children }: FilterBarProps) => {[m
+   return <div className="filter-bar">{children}</div>;[m
+ };[m
+ [m
+ export default FilterBar;[m
+ [m
+[31m-export type { FilterBarProps };[m
+[32m+[m[32mexport type { FilterBarProps };[m
+\ No newline at end of file[m
+[1mdiff --git a/src/app/components/filter-item.tsx b/src/app/components/filter-item.tsx[m
+[1mindex 61b3bd6..62370ad 100644[m
+[1m--- a/src/app/components/filter-item.tsx[m
+[1m+++ b/src/app/components/filter-item.tsx[m
+[36m@@ -3,10 +3,11 @@[m [mimport { ReactNode } from "react";[m
+ type FilterItemProps = {[m
+   children: ReactNode;[m
+ };[m
+[32m+[m
+ const FilterItem = ({ children }: FilterItemProps) => {[m
+   return <div className="filter-item">{children}</div>;[m
+ };[m
+ [m
+ export default FilterItem;[m
+ [m
+[31m-export type { FilterItemProps };[m
+[32m+[m[32mexport type { FilterItemProps };[m
+\ No newline at end of file[m
+[1mdiff --git a/src/app/components/sortable-header.tsx b/src/app/components/sortable-header.tsx[m
+[1mindex 94558a1..12796bf 100644[m
+[1m--- a/src/app/components/sortable-header.tsx[m
+[1m+++ b/src/app/components/sortable-header.tsx[m
+[36m@@ -3,6 +3,7 @@[m [mimport type { Company } from "../types/company.model";[m
+ import { ASCENDING, DESCENDING } from "../constants/constants";[m
+ [m
+ type SortType = "ASC" | "DESC" | null;[m
+[32m+[m
+ type SortableHeaderProps = {[m
+   title: keyof Company;[m
+   isActive: boolean;[m
+[36m@@ -18,12 +19,16 @@[m [mconst SortableHeader = ({[m
+   onSortTypeChange,[m
+ }: SortableHeaderProps) => {[m
+   const [sortType, setSortType] = useState<SortType>(ASCENDING);[m
+[32m+[m
+   const isAsc = sortType === ASCENDING;[m
+ [m
+   const handleChangeSort = () => {[m
+[31m-    if(isActive){[m
+[31m-      setSortType(isAsc ? DESCENDING : ASCENDING);[m
+[31m-      onSortTypeChange(title, isAsc ? DESCENDING : ASCENDING);[m
+[32m+[m[32m    if (isActive) {[m
+[32m+[m[32m      const newSortType = isAsc ? DESCENDING : ASCENDING;[m
+[32m+[m
+[32m+[m[32m      setSortType(newSortType);[m
+[32m+[m[32m      onSortTypeChange(title, newSortType);[m
+[32m+[m
+       return;[m
+     }[m
+ [m
+[36m@@ -33,11 +38,16 @@[m [mconst SortableHeader = ({[m
+   return ([m
+     <th onClick={handleChangeSort}>[m
+       {title.charAt(0).toUpperCase() + title.slice(1)}[m
+[31m-      {isActive && <span> {isAsc ? "🔽" : "🔼"}</span>}[m
+[32m+[m
+[32m+[m[32m      {isActive && ([m
+[32m+[m[32m        <span aria-hidden="true">[m
+[32m+[m[32m          {isAsc ? " ↓" : " ↑"}[m
+[32m+[m[32m        </span>[m
+[32m+[m[32m      )}[m
+     </th>[m
+   );[m
+ };[m
+ [m
+ export default SortableHeader;[m
+ [m
+[31m-export type { SortType };[m
+[32m+[m[32mexport type { SortType };[m
+\ No newline at end of file[m
+[1mdiff --git a/src/app/globals.css b/src/app/globals.css[m
+[1mindex bbe695b..d1a9bf4 100644[m
+[1m--- a/src/app/globals.css[m
+[1m+++ b/src/app/globals.css[m
+[36m@@ -1,126 +1,497 @@[m
+ /*[m
+[31m-tailwind has been added by defualt from latest version of nextjs but we might use it but not now.[m
+[31m-@tailwind base;[m
+[31m-@tailwind components;[m
+[31m-@tailwind utilities;[m
+[32m+[m[32m  Company Finder[m
+[32m+[m[32m  Global styles[m
+ */[m
+ [m
+[32m+[m[32m:root {[m
+[32m+[m[32m  --color-primary: #2563eb;[m
+[32m+[m[32m  --color-primary-hover: #1d4ed8;[m
+[32m+[m[32m  --color-primary-soft: #eff6ff;[m
+[32m+[m
+[32m+[m[32m  --color-background: #f8fafc;[m
+[32m+[m[32m  --color-surface: #ffffff;[m
+[32m+[m
+[32m+[m[32m  --color-text: #0f172a;[m
+[32m+[m[32m  --color-text-secondary: #64748b;[m
+[32m+[m[32m  --color-text-muted: #94a3b8;[m
+[32m+[m
+[32m+[m[32m  --color-border: #e2e8f0;[m
+[32m+[m[32m  --color-border-light: #f1f5f9;[m
+[32m+[m
+[32m+[m[32m  --radius-sm: 6px;[m
+[32m+[m[32m  --radius-md: 10px;[m
+[32m+[m[32m  --radius-lg: 14px;[m
+[32m+[m
+[32m+[m[32m  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);[m
+[32m+[m[32m  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Reset[m
+[32m+[m[32m========================= */[m
+[32m+[m
+[32m+[m[32m* {[m
+[32m+[m[32m  box-sizing: border-box;[m
+[32m+[m[32m}[m
+[32m+[m
+ html,[m
+ body {[m
+   margin: 0;[m
+   padding: 0;[m
+[32m+[m[32m  min-height: 100%;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mbody {[m
+[32m+[m[32m  background: var(--color-background);[m
+[32m+[m[32m  color: var(--color-text);[m
+[32m+[m
+   font-size: 14px;[m
+[32m+[m[32m  line-height: 1.5;[m
+[32m+[m
+[32m+[m[32m  -webkit-font-smoothing: antialiased;[m
+[32m+[m[32m  text-rendering: optimizeLegibility;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32ma {[m
+[32m+[m[32m  color: inherit;[m
+ }[m
+[32m+[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Main Layout[m
+[32m+[m[32m========================= */[m
+[32m+[m
+ .container {[m
+[31m-  background-color: rgb(238, 238, 238);[m
+[31m-  height: 100vh;[m
+[32m+[m[32m  min-height: 100vh;[m
+[32m+[m
+[32m+[m[32m  padding: 40px 32px 24px;[m
+[32m+[m
+[32m+[m[32m  background: var(--color-background);[m
+ }[m
+ [m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Filter Bar[m
+[32m+[m[32m========================= */[m
+[32m+[m
+ .filter-bar {[m
+[32m+[m[32m  width: 100%;[m
+[32m+[m[32m  max-width: 1400px;[m
+[32m+[m
+[32m+[m[32m  margin: 0 auto 24px;[m
+[32m+[m
+   display: flex;[m
+[31m-  flex-direction: row;[m
+[31m-  padding: 5px 50px 10px 50px;[m
+[31m-  background-color: rgb(53, 114, 157);[m
+[31m-  color: white;[m
+[31m-  justify-content: space-around;[m
+[32m+[m[32m  align-items: flex-end;[m
+[32m+[m
+[32m+[m[32m  gap: 20px;[m
+[32m+[m
+[32m+[m[32m  padding: 22px 24px;[m
+[32m+[m
+[32m+[m[32m  background: var(--color-surface);[m
+[32m+[m
+[32m+[m[32m  border: 1px solid var(--color-border);[m
+[32m+[m[32m  border-radius: var(--radius-lg);[m
+[32m+[m
+[32m+[m[32m  box-shadow: var(--shadow-sm);[m
+ }[m
+ [m
+ .filter-bar .filter-item {[m
+[31m-  margin-left: 5px;[m
+   display: flex;[m
+[32m+[m[32m  flex-direction: column;[m
+[32m+[m
+[32m+[m[32m  gap: 7px;[m
+[32m+[m
+[32m+[m[32m  flex: 1;[m
+[32m+[m[32m  min-width: 180px;[m
+ }[m
+ [m
+ .filter-bar .filter-item label {[m
+[31m-  display: inline-block;[m
+[31m-  text-align: right;[m
+[31m-  margin-right: 4px;[m
+[32m+[m[32m  display: block;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text);[m
+[32m+[m
+[32m+[m[32m  font-size: 13px;[m
+[32m+[m[32m  font-weight: 600;[m
+[32m+[m
+[32m+[m[32m  letter-spacing: 0.01em;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Inputs / Selects[m
+[32m+[m[32m========================= */[m
+[32m+[m
+[32m+[m[32minput,[m
+[32m+[m[32mselect {[m
+[32m+[m[32m  width: 100%;[m
+[32m+[m[32m  height: 42px;[m
+[32m+[m
+[32m+[m[32m  padding: 0 12px;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text);[m
+[32m+[m[32m  background: var(--color-surface);[m
+[32m+[m
+[32m+[m[32m  border: 1px solid var(--color-border);[m
+[32m+[m[32m  border-radius: var(--radius-md);[m
+[32m+[m
+[32m+[m[32m  outline: none;[m
+[32m+[m
+[32m+[m[32m  font-family: inherit;[m
+[32m+[m[32m  font-size: 14px;[m
+[32m+[m
+[32m+[m[32m  transition:[m
+[32m+[m[32m    border-color 150ms ease,[m
+[32m+[m[32m    box-shadow 150ms ease,[m
+[32m+[m[32m    background-color 150ms ease;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32minput::placeholder {[m
+[32m+[m[32m  color: var(--color-text-muted);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32minput:hover,[m
+[32m+[m[32mselect:hover {[m
+[32m+[m[32m  border-color: #cbd5e1;[m
+ }[m
+ [m
+[32m+[m[32minput:focus,[m
+[32m+[m[32mselect:focus {[m
+[32m+[m[32m  border-color: var(--color-primary);[m
+[32m+[m
+[32m+[m[32m  box-shadow:[m
+[32m+[m[32m    0 0 0 3px rgba(37, 99, 235, 0.1);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mselect {[m
+[32m+[m[32m  cursor: pointer;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Table[m
+[32m+[m[32m========================= */[m
+[32m+[m
+ table {[m
+[31m-  background-color: rgb(255, 255, 255);[m
+   width: 100%;[m
+[32m+[m[32m  max-width: 1400px;[m
+[32m+[m
+[32m+[m[32m  margin: 0 auto;[m
+[32m+[m
+[32m+[m[32m  border-collapse: separate;[m
+[32m+[m[32m  border-spacing: 0;[m
+[32m+[m
+[32m+[m[32m  overflow: hidden;[m
+[32m+[m
+[32m+[m[32m  background: var(--color-surface);[m
+[32m+[m
+[32m+[m[32m  border: 1px solid var(--color-border);[m
+[32m+[m[32m  border-radius: var(--radius-lg);[m
+[32m+[m
+[32m+[m[32m  box-shadow: var(--shadow-md);[m
+ }[m
+ [m
+[31m-tr {[m
+[31m-  background-color: beige;[m
+[31m-  cursor: default;[m
+[32m+[m[32m/* Table Header */[m
+[32m+[m
+[32m+[m[32mth {[m
+[32m+[m[32m  height: 52px;[m
+[32m+[m
+[32m+[m[32m  padding: 0 18px;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text-secondary);[m
+[32m+[m[32m  background: #f8fafc;[m
+[32m+[m
+[32m+[m[32m  border-bottom: 1px solid var(--color-border);[m
+[32m+[m
+[32m+[m[32m  font-size: 12px;[m
+[32m+[m[32m  font-weight: 700;[m
+[32m+[m
+[32m+[m[32m  text-align: left;[m
+[32m+[m[32m  text-transform: uppercase;[m
+[32m+[m
+[32m+[m[32m  letter-spacing: 0.04em;[m
+[32m+[m
+[32m+[m[32m  white-space: nowrap;[m
+[32m+[m
+[32m+[m[32m  cursor: pointer;[m
+[32m+[m
+[32m+[m[32m  transition:[m
+[32m+[m[32m    color 150ms ease,[m
+[32m+[m[32m    background-color 150ms ease;[m
+ }[m
+[32m+[m
+[32m+[m[32mth:hover {[m
+[32m+[m[32m  color: var(--color-primary);[m
+[32m+[m[32m  background: var(--color-primary-soft);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Table Cells */[m
+[32m+[m
+ td {[m
+[32m+[m[32m  height: 58px;[m
+[32m+[m
+[32m+[m[32m  padding: 12px 18px;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text);[m
+[32m+[m
+[32m+[m[32m  border-bottom: 1px solid var(--color-border-light);[m
+[32m+[m
+[32m+[m[32m  font-size: 14px;[m
+[32m+[m
+   word-break: break-word;[m
+   vertical-align: middle;[m
+ }[m
+ [m
+[31m-th {[m
+[31m-  color: rgb(45, 45, 45);[m
+[31m-  background-color: rgb(176, 194, 207);[m
+[32m+[m[32m/* Table Rows */[m
+[32m+[m
+[32m+[m[32mtr {[m
+[32m+[m[32m  background: var(--color-surface);[m
+[32m+[m
+[32m+[m[32m  transition: background-color 150ms ease;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mtr:last-child td {[m
+[32m+[m[32m  border-bottom: none;[m
+ }[m
+ [m
+[32m+[m[32mtr:hover {[m
+[32m+[m[32m  background: #f8fafc;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Override old alternating row colors */[m
+[32m+[m
+ tr:nth-child(2n) {[m
+[31m-  background-color: rgb(255, 235, 181);[m
+[32m+[m[32m  background: var(--color-surface);[m
+ }[m
+ [m
+[31m-tr:hover,[m
+ tr:nth-child(2n):hover {[m
+[31m-  background-color: white;[m
+[32m+[m[32m  background: #f8fafc;[m
+ }[m
+ [m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   LinkedIn / Jobs[m
+[32m+[m[32m========================= */[m
+[32m+[m
+ .text-center {[m
+   display: flex;[m
+[32m+[m
+[32m+[m[32m  align-items: center;[m
+   justify-content: center;[m
+[32m+[m
+[32m+[m[32m  width: 32px;[m
+[32m+[m[32m  height: 32px;[m
+[32m+[m
+[32m+[m[32m  margin: 0 auto;[m
+[32m+[m
+[32m+[m[32m  border-radius: var(--radius-sm);[m
+[32m+[m
+[32m+[m[32m  transition:[m
+[32m+[m[32m    background-color 150ms ease,[m
+[32m+[m[32m    transform 150ms ease;[m
+ }[m
+ [m
+[31m-footer {[m
+[31m-  margin: 5px;[m
+[31m-  text-align: center;[m
+[31m-  font-size: 12px;[m
+[32m+[m[32m.text-center:hover {[m
+[32m+[m[32m  background: #eef2ff;[m
+[32m+[m
+[32m+[m[32m  transform: translateY(-1px);[m
+ }[m
+ [m
+[31m-input,[m
+[31m-select {[m
+[31m-  border-radius: 5px;[m
+[31m-  border: none;[m
+[31m-  padding: 0 5px 0 5px;[m
+[31m-  color: rgb(37, 37, 37);[m
+[32m+[m[32m.text-center img {[m
+[32m+[m[32m  display: block;[m
+ }[m
+ [m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   No Data[m
+[32m+[m[32m========================= */[m
+[32m+[m
+ .no-data {[m
+[32m+[m[32m  width: min(600px, 100%);[m
+[32m+[m
+[32m+[m[32m  min-height: 120px;[m
+[32m+[m
+[32m+[m[32m  margin: 50px auto;[m
+[32m+[m
+   display: flex;[m
+[31m-  justify-content: center;[m
+[32m+[m
+   align-items: center;[m
+[31m-  width: 600px;[m
+[31m-  height: 100px;[m
+[31m-  margin: 25px auto 25px auto;[m
+[31m-  background-color: white;[m
+[31m-  border: none;[m
+[31m-  border-radius: 10px;[m
+[32m+[m[32m  justify-content: center;[m
+[32m+[m
+[32m+[m[32m  padding: 24px;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text-secondary);[m
+[32m+[m
+[32m+[m[32m  background: var(--color-surface);[m
+[32m+[m
+[32m+[m[32m  border: 1px solid var(--color-border);[m
+[32m+[m[32m  border-radius: var(--radius-lg);[m
+[32m+[m
+[32m+[m[32m  box-shadow: var(--shadow-sm);[m
+[32m+[m
+[32m+[m[32m  font-size: 14px;[m
+[32m+[m
+[32m+[m[32m  text-align: center;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Footer[m
+[32m+[m[32m========================= */[m
+[32m+[m
+[32m+[m[32mfooter {[m
+[32m+[m[32m  max-width: 1400px;[m
+[32m+[m
+[32m+[m[32m  margin: 28px auto 0;[m
+[32m+[m
+[32m+[m[32m  padding: 20px 0;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text-muted);[m
+[32m+[m
+[32m+[m[32m  border-top: 1px solid var(--color-border);[m
+[32m+[m
+[32m+[m[32m  font-size: 12px;[m
+[32m+[m
+[32m+[m[32m  line-height: 1.6;[m
+[32m+[m
+[32m+[m[32m  text-align: center;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfooter a {[m
+[32m+[m[32m  color: var(--color-primary);[m
+[32m+[m
+[32m+[m[32m  font-weight: 600;[m
+[32m+[m
+[32m+[m[32m  text-decoration: none;[m
+[32m+[m
+[32m+[m[32m  transition: color 150ms ease;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfooter a:hover {[m
+[32m+[m[32m  color: var(--color-primary-hover);[m
+[32m+[m
+[32m+[m[32m  text-decoration: underline;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Page Header[m
+[32m+[m[32m========================= */[m
+[32m+[m
+[32m+[m[32m.page-header {[m
+[32m+[m[32m  width: 100%;[m
+[32m+[m[32m  max-width: 1400px;[m
+[32m+[m
+[32m+[m[32m  margin: 0 auto 24px;[m
+[32m+[m
+[32m+[m[32m  padding: 0 4px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.page-header h1 {[m
+[32m+[m[32m  margin: 0 0 8px;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text);[m
+[32m+[m
+[32m+[m[32m  font-size: clamp(26px, 4vw, 36px);[m
+[32m+[m[32m  font-weight: 700;[m
+[32m+[m
+[32m+[m[32m  line-height: 1.2;[m
+[32m+[m
+[32m+[m[32m  letter-spacing: -0.025em;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.page-header p {[m
+[32m+[m[32m  max-width: 650px;[m
+[32m+[m
+[32m+[m[32m  margin: 0;[m
+[32m+[m
+[32m+[m[32m  color: var(--color-text-secondary);[m
+[32m+[m
+[32m+[m[32m  font-size: 15px;[m
+[32m+[m[32m  line-height: 1.6;[m
+ }[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Tablet / Mobile[m
+[32m+[m[32m========================= */[m
+[32m+[m
+[32m+[m[32m@media (max-width: 768px) {[m
+[32m+[m[32m  .container {[m
+[32m+[m[32m    padding: 20px 16px;[m
+[32m+[m[32m  }[m
+ [m
+[31m-@media only screen and (max-width: 500px) {[m
+   .filter-bar {[m
+     flex-direction: column;[m
+[31m-    padding: 10px 5px 10px 0;[m
+[32m+[m
+[32m+[m[32m    align-items: stretch;[m
+[32m+[m
+[32m+[m[32m    gap: 16px;[m
+[32m+[m
+[32m+[m[32m    padding: 18px;[m
+   }[m
+ [m
+   .filter-bar .filter-item {[m
+[31m-    margin-top: 5px;[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m
+[32m+[m[32m    min-width: 0;[m
+   }[m
+[31m-  .filter-bar .filter-item label {[m
+[31m-    min-width: 100px;[m
+[31m-    text-align: right;[m
+[32m+[m
+[32m+[m[32m  table {[m
+[32m+[m[32m    font-size: 13px;[m
+   }[m
+[31m-  .filter-bar .filter-item .control {[m
+[31m-    width: 100%;[m
+[32m+[m
+[32m+[m[32m  th,[m
+[32m+[m[32m  td {[m
+[32m+[m[32m    padding-left: 12px;[m
+[32m+[m[32m    padding-right: 12px;[m
+   }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* =========================[m
+[32m+[m[32m   Small Mobile[m
+[32m+[m[32m========================= */[m
+[32m+[m
+[32m+[m[32m@media (max-width: 500px) {[m
+[32m+[m[32m  .container {[m
+[32m+[m[32m    padding: 12px 8px 20px;[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  .filter-bar {[m
+[32m+[m[32m    margin-bottom: 16px;[m
+[32m+[m
+[32m+[m[32m    padding: 16px;[m
+[32m+[m
+[32m+[m[32m    border-radius: var(--radius-md);[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  input,[m
+[32m+[m[32m  select {[m
+[32m+[m[32m    height: 44px;[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  th {[m
+[32m+[m[32m    height: 48px;[m
+[32m+[m
+[32m+[m[32m    font-size: 11px;[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  td {[m
+[32m+[m[32m    height: 54px;[m
+[32m+[m
+[32m+[m[32m    padding: 10px 8px;[m
+[32m+[m
+[32m+[m[32m    font-size: 13px;[m
+[32m+[m[32m  }[m
+[32m+[m
+   .hidden-on-mobile {[m
+     display: none;[m
+   }[m
+[32m+[m
+   .no-data {[m
+[31m-    display: flex;[m
+[31m-    justify-content: center;[m
+[31m-    align-items: center;[m
+[31m-    width: 85%;[m
+[31m-    height: 100px;[m
+[31m-    margin: 8px auto 8px auto;[m
+[31m-    padding: 8px;[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m
+[32m+[m[32m    min-height: 110px;[m
+[32m+[m
+[32m+[m[32m    margin: 30px auto;[m
+[32m+[m
+[32m+[m[32m    padding: 20px 16px;[m
+   }[m
+[31m-}[m
+[32m+[m
+[32m+[m[32m  footer {[m
+[32m+[m[32m    margin-top: 20px;[m
+[32m+[m
+[32m+[m[32m    padding: 16px 8px;[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/src/app/layout.tsx b/src/app/layout.tsx[m
+[1mindex 41932ac..1747eba 100644[m
+[1m--- a/src/app/layout.tsx[m
+[1m+++ b/src/app/layout.tsx[m
+[36m@@ -1,13 +1,18 @@[m
+[31m-import Head from "next/head";[m
+ import "./globals.css";[m
+ import { Open_Sans } from "next/font/google";[m
+ [m
+[31m-const openSansFont = Open_Sans({ subsets: ["latin"] });[m
+[32m+[m[32mconst openSansFont = Open_Sans({[m
+[32m+[m[32m  subsets: ["latin"],[m
+[32m+[m[32m  display: "swap",[m
+[32m+[m[32m});[m
+ [m
+ export const metadata = {[m
+   title: "Company Finder",[m
+   description:[m
+[31m-    "A mini webapp that help end-users to find companies taht offer job spnsorship VISA!",[m
+[32m+[m[32m    "A mini webapp that helps end-users find companies that offer visa sponsorship.",[m
+[32m+[m[32m  icons: {[m
+[32m+[m[32m    icon: "/favicon.png",[m
+[32m+[m[32m  },[m
+ };[m
+ [m
+ export default function RootLayout({[m
+[36m@@ -17,10 +22,7 @@[m [mexport default function RootLayout({[m
+ }) {[m
+   return ([m
+     <html lang="en">[m
+[31m-      <Head>[m
+[31m-        <link rel="icon" type="image/png" href="favicon.png" />[m
+[31m-      </Head>[m
+       <body className={openSansFont.className}>{children}</body>[m
+     </html>[m
+   );[m
+[31m-}[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/src/app/page.tsx b/src/app/page.tsx[m
+[1mindex d7e928f..d5406c2 100644[m
+[1m--- a/src/app/page.tsx[m
+[1m+++ b/src/app/page.tsx[m
+[36m@@ -1,32 +1,49 @@[m
+ "use client";[m
+[32m+[m
+ import { useEffect, useState } from "react";[m
+ import Image from "next/image";[m
+[32m+[m
+ import FilterItem from "./components/filter-item";[m
+ import FilterBar from "./components/filter-bar";[m
+[32m+[m[32mimport SortableHeader, { SortType } from "./components/sortable-header";[m
+[32m+[m
+ import { Company } from "./types/company.mode

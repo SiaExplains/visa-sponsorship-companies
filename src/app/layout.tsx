@@ -1,13 +1,18 @@
-import Head from "next/head";
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
 
-const openSansFont = Open_Sans({ subsets: ["latin"] });
+const openSansFont = Open_Sans({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Company Finder",
   description:
-    "A mini webapp that help end-users to find companies taht offer job spnsorship VISA!",
+    "A mini webapp that helps end-users find companies that offer visa sponsorship.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -17,9 +22,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" type="image/png" href="favicon.png" />
-      </Head>
       <body className={openSansFont.className}>{children}</body>
     </html>
   );
